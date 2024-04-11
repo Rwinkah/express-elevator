@@ -1,4 +1,3 @@
-import React from "react";
 import expressLogo from '../assets/expressLogo.svg'
 export default function Navbar() {
     return (

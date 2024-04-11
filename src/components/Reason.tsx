@@ -1,4 +1,3 @@
-import React from "react";
 import elevIcon from '../assets/elevatorIcon.png'
 import reasonImg1 from '../assets/reasonImg1.png'
 import reasonImg2 from '../assets/reasonImg2.png'

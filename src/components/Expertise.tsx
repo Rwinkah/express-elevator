@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Expertise() {
     return (
         <section id="expertise-section" className="flex flex-col items-center h-[fit] pl-[150px] pr-[150px] bg-white">
