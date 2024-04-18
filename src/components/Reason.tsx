@@ -19,28 +19,28 @@ export default function Reason() {
                     <p className="text-[#404040] text-sm text-center mb-[3.5rem]">
                         have a safe trip to your destination.
                     </p>
-                <div className="bg-[#fafafa] pt-10">
+                <div className="bg-[rgb(250,250,250)] pt-10">
                     <h5 className="text-[#333333] text-2xl font-medium">Your safety is our number one priority</h5>
                     <p  className="text-[#404040] text-lg w-[50%] mb-[1.25rem]">
                         We prioritize safety in the design, manufacturing, installation, 
                         and maintenance of our elevator systems. Here's how we achieve this:
                          </p>
                 <div className="flex gap-[2.5rem] h-[50%] items-center justify-between">
-                    <div className="bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"> <img src={elevIcon} /> Emergency device at power failure</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
                             mains and ensures that passengers leave the elevator safely
                             </p>
                     </div>
-                    <div className="bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"> <img src={elevIcon} /> Safety tongs and speed governor</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
                             mains and ensures that passengers leave the elevator safely
                             </p>
                     </div>
-                    <div className="bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"><img src={elevIcon}/> Safety tongs and speed governor</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
@@ -51,7 +51,7 @@ export default function Reason() {
                 </div>
                 <div className="flex justify-between mb-[3.75rem]">
                     <div className="w-[80%] flex flex-col  justify-center">
-                        <h3 className="font-medium text-2xl mb-4">Industry 4.0 intelligent manufacturing</h3>
+                        <h3 className="font-medium text-2xl mb-4 leading-[24px]">Industry 4.0 intelligent manufacturing</h3>
                         <p className="w-[60%]">
                             Express Elevator leverages Elevator Industry 4.0, 
                             emphasizing digital network and intelligence integration,
