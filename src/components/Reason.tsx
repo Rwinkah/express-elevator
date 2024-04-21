@@ -6,22 +6,22 @@ import reasonImg4 from '../assets/reasonImg4.png'
 
 export default function Reason() {
     return (
-        <section id="why-choose-us-section" className="flex flex-col items-center h-[fit] pl-[150px] pr-[150px] bg-[#F7FAFF]">
-            <div id="reason-headertext">
-                <h2 className="text-expBlueDark text-4xl font-medium text-center mb-4">
+        <section id="why-choose-us-section" className="flex flex-col items-center h-[fit] md:pl-[150px] md:pr-[150px] bg-[#F7FAFF]">
+            <div id="reason-headertext" className='w-full flex-col items-center'>
+                <h2 className="text-expBlueDark text-4xl font-medium text-center mb-4 mt-4">
                     Why choose us
                 </h2>
 
-                <p className="text-[#404040] text-sm text-center w-[]">
+                <p className="text-[#404040] text-sm text-center">
                         With the application of all round computer controlled systems, 
                         express elevators ensure that you 
                     </p>
-                    <p className="text-[#404040] text-sm text-center mb-[3.5rem]">
+                    <p className="text-[#404040] text-sm text-center md:mb-[3.5rem] mb-2">
                         have a safe trip to your destination.
                     </p>
-                <div className="bg-[rgb(250,250,250)] pt-10">
-                    <h5 className="text-[#333333] text-2xl font-medium">Your safety is our number one priority</h5>
-                    <p  className="text-[#404040] text-lg w-[50%] mb-[1.25rem]">
+                <div className="bg-[rgb(250,250,250)] pt-10  w-full md:items-start items-center flex flex-col">
+                    <h5 className="text-[#333333] md:text-2xl font-medium w-4/5 text-base">Your safety is our number one priority</h5>
+                    <p  className="text-[#404040] md:text-lg md:w-[50%] mb-[1.25rem] text-sm w-4/5 md:pt-0 pt-2">
                         We prioritize safety in the design, manufacturing, installation, 
                         and maintenance of our elevator systems. Here's how we achieve this:
                          </p>
