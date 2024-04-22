@@ -36,7 +36,7 @@ import {
         opts={{
           align: "start",
         }}
-        className="w-full max h-[fit] mb-[10rem] bg-blue-50"
+        className="w-full max h-[fit]  bg-blue-50"
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
                  <h2 className="text-[#063C79] font-medium text-4xl leading-[43.57px]">Elevator components</h2>

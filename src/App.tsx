@@ -5,6 +5,7 @@ import Reason from './components/Reason'
 import Expertise from './components/Expertise'
 // import ElevatorComponents from './components/ElevatorComponents'
 import CarouselSize from './components/ElevatorComponents'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Reason />
       <Expertise />
       <CarouselSize />
+      <Footer />
     </div>
   )
 }
