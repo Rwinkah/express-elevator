@@ -36,31 +36,32 @@ import {
         opts={{
           align: "start",
         }}
-        className="w-full max h-fit mb-[10rem]"
+        className="w-full max h-[fit] mb-[10rem] bg-blue-50"
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
                  <h2 className="text-[#063C79] font-medium text-4xl leading-[43.57px]">Elevator components</h2>
-               <p className="leading-[28px] w-[48%] flex">
+               <p className="leading-[28px] md:w-[48%] w-[80%] flex">
                      Discover our elevator components tailored to fit any elevator model.
                      Our industry-leading cab interior panels and ceilings are renowned
                      for their lightweight constructions and offer limitless design possibilities and finishes
                      </p>
              </div>
-        <CarouselContent>
+        <CarouselContent className='w-[100vw] mb-[5rem]'>
           {elevData.map((comp) => (
             <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" >
               <div className="w-[420px] h-[440px]">
-                <Card style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100%', height: '100%' }} className="flex  justify-center">
-                  <CardContent className="flex pt-6 box-border  flex-col bottom-10 absolute rounded-sm bg-[#999999] h-[fit] opacity-85 shadow-sm w-[23%]">
-                    <h4 className="text-xl text-white w-[60%]">{comp.text}</h4>
+                <Card style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100%', height: '100%' }} className="flex p-0 md:justify-center">
+                  <CardContent className="flex p-0 pt-3 pb-3 pl-3 box-border   bottom-10 absolute rounded-sm bg-[#999999] h-[72px] w-[340px] opacity-85 shadow-sm justify-between">
+                    <h4 className="text-xl text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <img className='w-[100%] h-[100%]'src={comp.backImg} /> */}
+                    <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[94px] text-sm'> See more</button>
                   </CardContent>
                 </Card>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <span className="flex align-end absolute right-10 ">
+        <span className="flex w-[100%] justify-center">
                      <CarouselPrevious className='mr-6' />
                      <CarouselNext />
                  </span>
