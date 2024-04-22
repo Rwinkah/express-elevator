@@ -1,4 +1,4 @@
-import * as React from "react"
+// import * as React from "react"
 import carDec1 from '../assets/carDecoration1.svg'
 import carDec2 from '../assets/carDecoration2.svg'
 import carDec3 from '../assets/carDecoration3.svg'
@@ -21,13 +21,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../../components/ui/carousel"
-import ElevatorCard from "./ElevatorCard"
+// import ElevatorCard from "./ElevatorCard"
 
-interface ElevatorCardProps {
-    name: string;
-    backImg: string;
-    moreImg: string[]; // Adjust this line
-  }
+// interface ElevatorCardProps {
+//     name: string;
+//     backImg: string;
+//     moreImg: string[]; // Adjust this line
+//   }
 
   
   export default function CarouselSize() {
