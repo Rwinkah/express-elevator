@@ -6,7 +6,7 @@ import reasonImg4 from '../assets/reasonImg4.png'
 
 export default function Reason() {
     return (
-        <section id="why-choose-us-section" className="flex flex-col items-center h-[fit] md:pl-[150px] md:pr-[150px] bg-[#F7FAFF]">
+        <section id="reason-section" className="flex flex-col items-center h-[fit] md:pl-[150px] md:pr-[150px] bg-[#F7FAFF]">
             <div id="reason-headertext" className='w-full flex-col items-center'>
                 <h2 className="text-expBlueDark text-4xl font-medium text-center mb-4 mt-4">
                     Why choose us

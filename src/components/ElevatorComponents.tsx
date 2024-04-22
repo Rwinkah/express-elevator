@@ -33,6 +33,7 @@ import {
   export default function CarouselSize() {
     return (
       <Carousel
+      id='component-section'
         opts={{
           align: "start",
         }}

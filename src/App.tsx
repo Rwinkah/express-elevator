@@ -11,14 +11,17 @@ function App() {
 
 
   return (
-    <div id='main-page' className='bg-[#fafafa] max-w-[100vw] m-0 p-0 overflow-hidden'>
-      <Navbar />
-      <Hero />
+    <>
+    <Navbar/>
+        <div id='main-page' className='bg-[#fafafa] max-w-[100vw] m-0 p-0 overflow-x-hidden'>
+      <Hero  />
       <Reason />
       <Expertise />
       <CarouselSize />
       <Footer />
     </div>
+    </>
+
   )
 }
 

@@ -12,7 +12,7 @@ export default function Footer () {
         <>
         {
         isTabletAbove ?(
-            <section id="footer" className="pl-[100px] bg-[#021E42] h-[248px] w-[100vw] flex justify-between text-white text-sm  items-center">
+            <section id="footer-section" className="pl-[100px] bg-[#021E42] h-[248px] w-[100vw] flex justify-between text-white text-sm  items-center">
             <div id='footer_left'> 
                 <img src={Logo} className='mb-[3rem]' />
                 <span className=''>Plot 8, 10 A Sani Zangon-Daura Street, Guzape, Asokoro, FCT ABUJA, Nigeria</span>
@@ -38,7 +38,7 @@ export default function Footer () {
 
         </section>
         ): (
-        <section className='bg-[#021E42] pl-[5vw] pt-[5vh] text-white text-sm'>
+        <section id='footer-section' className='bg-[#021E42] pl-[5vw] pt-[5vh] text-white text-sm'>
             <img src={Logo}/>
             <h4 className='text-base mt-8 mb-[18px]'>Contact us:</h4>
             <span className='flex gap-3 mt-2 mb-4'> <img src={email}/> info@expresselevators.ca</span>
