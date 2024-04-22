@@ -13,6 +13,12 @@ import landDoor2 from '../assets/landingDoors2.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
 
 
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "../../components/ui/popover"
+
 import { Card, CardContent } from "../../components/ui/card"
 import {
   Carousel,
@@ -55,7 +61,19 @@ import {
                   <CardContent className="flex p-0 pt-3 pb-3 pl-3 pr-3 box-border   bottom-10 absolute rounded-sm bg-[#999999] h-[72px] w-[89%] lg:w-[340px] opacity-85 shadow-sm gap-[vw]">
                     <h4 className="text-xl text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <img className='w-[100%] h-[100%]'src={comp.backImg} /> */}
-                    <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] text-sm'> See more</button>
+                    {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
+                    <Popover>
+                <PopoverTrigger asChild>
+                    <button className='text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
+                </PopoverTrigger>
+                <PopoverContent className=' flex md:w-fit w-1/4 h-1/4'>
+                    <div className='flex md:flex-row  gap-4 justify-between'>
+                        {comp.images.map((img, index) => (
+                            <img className='' src={img} alt="elevator component" key={index} />
+                            ))}
+                    </div>
+                </PopoverContent>
+            </Popover>
                   </CardContent>
                 </Card>
               </div>
