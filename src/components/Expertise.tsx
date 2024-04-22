@@ -27,7 +27,7 @@ export default function Expertise() {
                 <img src={expImg1} className='lg:h-[25%] h-2/4'/>
                 <div className='flex lg:w-[55%]'>
                     <div className='flex justify-center flex-col w-full gap-1 '> 
-                    <h3 className='font-medium text-2xl mb-[28px]'>Passenger Elevators</h3>
+                    <h3 className='font-medium text-2xl mb-[28px] mt-[5vh]'>Passenger Elevators</h3>
                     <span className='flex lg:h-[25%] mb-[4rem]'>
                         <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
                         <div>
