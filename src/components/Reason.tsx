@@ -59,7 +59,7 @@ export default function Reason() {
                              it's upgrading with Express Elevator's unique characteristics.
                             </p>
                     </div>
-                    <span className="flex flex-wrap gap-4 align-end justify-between md:w-[43%] w-[80%] mt-[54px]">
+                    <span className="flex flex-wrap gap-4 align-end justify-between md:max-w-[35vw] w-[80%] mt-[54px]">
                         <img className='md:w-auto w-[100px] rounded-2xl' src={reasonImg1} />
                         <img className='md:w-auto w-[175px] rounded-2xl' src={reasonImg2} />
                         <img className='md:w-auto w-[152px] rounded-2xl' src={reasonImg3} />
