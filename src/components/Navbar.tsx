@@ -14,7 +14,7 @@ export default function Navbar() {
         {
             isTabletAbove ? (
                 <nav  className="flex pl-[155px] pr-[155px] h-[100px] justify-between bg-white  center items-center  w-[100vw] z-[1000] box-border  top-0 fixed text-lg">
-                <Link  activeClass='active'smooth spy to='hero-section' className="text-xl" onClick={setOpen(false)}>
+                <Link  activeClass='active'smooth spy to='hero-section' className="text-xl" >
                     <img className="" src={expressLogo}/>
                 </Link>
     
