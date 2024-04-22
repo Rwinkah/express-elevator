@@ -5,25 +5,21 @@
  * @returns {JSX.Element} The rendered ElevatorCard component.
  */
 
-type ImageArray = string[];
-type ElevatorItem = {
-  [key: string]: ImageArray;
-};
-type ElevData = ElevatorItem[];
+
 
 interface ElevatorCardProps {
     name: string;
     moreImg: string[]; // Adjust this line
   }
 
-import { Card, CardContent } from "../../components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "../../components/ui/carousel"
+// import { Card, CardContent } from "../../components/ui/card"
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "../../components/ui/carousel"
 
 // import elevData from '../data/elevatorcomponents.js'
 

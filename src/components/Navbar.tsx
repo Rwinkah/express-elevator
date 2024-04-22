@@ -1,7 +1,7 @@
 import expressLogo from '../assets/expressLogo.svg'
 export default function Navbar() {
     return (
-        <nav className="flex pl-[155px] pr-[155px] h-[68px] justify-between bg-white  center items-center box-border max-w-[100vw] box-border">
+        <nav className="flex pl-[155px] pr-[155px] h-[68px] justify-between bg-white  center items-center  max-w-[100vw] box-border">
             <div id="logo" className="">
                 <img className="" src={expressLogo}/>
             </div>
