@@ -52,7 +52,7 @@ import {
             <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" >
               <div className="w-[420px] h-[440px]">
                 <Card style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100%', height: '100%' }} className="flex p-0 md:justify-center">
-                  <CardContent className="flex p-0 pt-3 pb-3 pl-3 pr-3 box-border   bottom-10 absolute rounded-sm bg-[#999999] h-[72px] w-[89%] lg:w-[340px] opacity-85 shadow-sm gap-[20vw]">
+                  <CardContent className="flex p-0 pt-3 pb-3 pl-3 pr-3 box-border   bottom-10 absolute rounded-sm bg-[#999999] h-[72px] w-[89%] lg:w-[340px] opacity-85 shadow-sm gap-[vw]">
                     <h4 className="text-xl text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <img className='w-[100%] h-[100%]'src={comp.backImg} /> */}
                     <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] text-sm'> See more</button>
