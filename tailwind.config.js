@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: theme => ({
+        'carDecor': "url('src/assets/carDecoration1.svg)",
+        'elevWell': "url('/src/assets/elevatorWell1.svg)",
+        'handRail': "url('/src/assets/handRailing1.svg)",
+        'landDoor': "url('/src/assets/landingDoors1.svg)"
+      }),
       colors: {
         'expBlue': '#0375F5',
         'expBlueDark': '#0F55A3',

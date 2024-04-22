@@ -15,9 +15,7 @@ function App() {
       <Hero />
       <Reason />
       <Expertise />
-      <div className='%]'>
       <CarouselSize />
-      </div>
     </div>
   )
 }

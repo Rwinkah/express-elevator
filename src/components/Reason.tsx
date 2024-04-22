@@ -20,27 +20,27 @@ export default function Reason() {
                         have a safe trip to your destination.
                     </p>
                 <div className="bg-[rgb(250,250,250)] pt-10  w-full md:items-start items-center flex flex-col">
-                    <h5 className="text-[#333333] md:text-2xl font-medium w-4/5 text-base">Your safety is our number one priority</h5>
-                    <p  className="text-[#404040] md:text-lg md:w-[50%] mb-[1.25rem] text-sm w-4/5 md:pt-0 pt-2">
+                    <h5 className="text-[#333333] md:text-2xl font-medium w-[92%] text-base">Your safety is our number one priority</h5>
+                    <p  className="text-[#404040] md:text-lg md:w-[50%] mb-[1.25rem] text-sm w-[92%] md:pt-0 pt-2">
                         We prioritize safety in the design, manufacturing, installation, 
                         and maintenance of our elevator systems. Here's how we achieve this:
                          </p>
-                <div className="flex gap-[2.5rem] h-[50%] items-center justify-between">
-                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                <div className="flex lg:flex-row flex-col gap-[2.5rem] min-h-[50%] items-center justify-between w-full">
+                    <div className="leading-[21px] bg-white lg:w-[30%] w-[95%] pr-[1.5rem] min-h-[193px] pt-[50px] pl-4 rounded-xl  shadow-lg border border-gray-200">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"> <img src={elevIcon} /> Emergency device at power failure</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
                             mains and ensures that passengers leave the elevator safely
                             </p>
                     </div>
-                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                    <div className="leading-[21px] bg-white lg:w-[30%] w-[95%] pr-[1.5rem] min-h-[193px] pt-[50px] pl-4 rounded-xl  shadow-lg border border-gray-200">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"> <img src={elevIcon} /> Safety tongs and speed governor</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
                             mains and ensures that passengers leave the elevator safely
                             </p>
                     </div>
-                    <div className="leading-[21px] bg-white w-[30%] pr-[1.5rem] h-[193px] pt-[50px] pl-4 rounded-2xl">
+                    <div className="leading-[21px] bg-white lg:w-[30%] w-[95%] pr-[1.5rem] min-h-[193px] pt-[50px] pl-4 rounded-xl  shadow-lg border border-gray-200">
                         <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"><img src={elevIcon}/> Safety tongs and speed governor</h6>
                         <p className="text-sm  text-[#737373]">
                             In the case of power failure our elevators automatically convert to spare 
@@ -49,21 +49,21 @@ export default function Reason() {
                     </div>
 
                 </div>
-                <div className="flex justify-between mb-[3.75rem]">
-                    <div className="w-[80%] flex flex-col  justify-center">
-                        <h3 className="font-medium text-2xl mb-4 leading-[24px]">Industry 4.0 intelligent manufacturing</h3>
-                        <p className="w-[60%]">
+                <div className="flex md:flex-row flex-col min-h-[50vh] justify-between mb-[3.75rem] mt-[40px] md:items-start items-center">
+                    <div className="md:w-[80%] w-full flex flex-col h-full  justify-center  items-center md:items-start">
+                        <h3 className="font-medium md:text-2xl text-normal mb-4 leading-[24px] w-[95%]">Industry 4.0 intelligent manufacturing</h3>
+                        <p className="md:w-[60%] md:leading-normal leading-5 text-[#404040] md:text-normal text-[12px] w-[95%] ">
                             Express Elevator leverages Elevator Industry 4.0, 
                             emphasizing digital network and intelligence integration,
                              to shift from low-cost to quality advantage. Following German leading technology, 
                              it's upgrading with Express Elevator's unique characteristics.
                             </p>
                     </div>
-                    <span className="flex flex-wrap gap-4 align-end justify-between w-[43%] mt-[54px]">
-                        <img src={reasonImg1} />
-                        <img src={reasonImg2} />
-                        <img src={reasonImg3} />
-                        <img src={reasonImg4}/>
+                    <span className="flex flex-wrap gap-4 align-end justify-between md:w-[43%] w-[80%] mt-[54px]">
+                        <img className='md:w-auto w-[100px] rounded-2xl' src={reasonImg1} />
+                        <img className='md:w-auto w-[175px] rounded-2xl' src={reasonImg2} />
+                        <img className='md:w-auto w-[152px] rounded-2xl' src={reasonImg3} />
+                        <img className='md:w-auto w-[110px] rounded-2xl' src={reasonImg4}/>
                     </span>
                 </div>
                 </div>

@@ -16,14 +16,14 @@ interface ElevatorCardProps {
     moreImg: string[]; // Adjust this line
   }
 
-import { Card, CardContent } from "/components/ui/card"
+import { Card, CardContent } from "../../components/ui/card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "/components/ui/carousel"
+} from "../../components/ui/carousel"
 
 // import elevData from '../data/elevatorcomponents.js'
 
@@ -32,7 +32,7 @@ import {
     Popover,
     PopoverContent,
     PopoverTrigger,
-  } from "/components/ui/popover"
+  } from "../../components/ui/popover"
   
 export default function ElevatorCard ({name, moreImg}:ElevatorCardProps) {
 
@@ -45,7 +45,7 @@ export default function ElevatorCard ({name, moreImg}:ElevatorCardProps) {
                     className="absolute inset-0 w-full h-full object-cover" 
                     />
                 <h6>{name} </h6>
-            </div>
+            </div>  
             <Popover>
                 <PopoverTrigger asChild>
                     <button>see more</button>
