@@ -13,11 +13,11 @@ import landDoor2 from '../assets/landingDoors2.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
 
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "../../components/ui/popover"
+// import {
+//   Popover,
+//   PopoverContent,
+//   PopoverTrigger,
+// } from "../../components/ui/popover"
 
 import { Card, CardContent } from "../../components/ui/card"
 import {
