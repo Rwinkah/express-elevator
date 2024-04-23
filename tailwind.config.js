@@ -19,6 +19,9 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        expButton: '-5px -5px 15px , 5px 5px 15px #fff, inset 5px 5px 10px #, inset -5px -5px 10px #fff',
+      },
       backgroundImage: theme => ({
         'carDecor': "url('src/assets/carDecoration1.svg)",
         'elevWell': "url('/src/assets/elevatorWell1.svg)",

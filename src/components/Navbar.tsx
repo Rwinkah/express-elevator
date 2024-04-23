@@ -13,23 +13,23 @@ export default function Navbar() {
         <div className='z-[10] top-0'>
         {
             isTabletAbove ? (
-                <nav  className="flex pl-[155px] pr-[155px] h-[100px] justify-between bg-white  center items-center  w-[100vw] z-[1000] box-border  top-0 fixed text-lg">
-                <Link  activeClass='active'smooth spy to='hero-section' className="text-xl" >
+                <nav  className="flex pl-[155px] pr-[155px] h-[68px] justify-between bg-white  center items-center  w-[100vw] z-[1000] box-border  top-0 fixed text-sm shadow-lg">
+                <Link  activeClass='active'smooth spy to='hero-section' className="text-sm" >
                     <img className="" src={expressLogo}/>
                 </Link>
     
                 <div className="flex gap-[1rem] items-center text-sm text-[#61636B]">
-                <Link activeClass="active" smooth spy to="reason-section" className='text-xl'>
+                <Link activeClass="active" smooth spy to="reason-section" className='text-sm'>
                 Why choose us
               </Link>         
-              <Link activeClass="active" smooth spy to="expertise-section" className='text-xl'>
+              <Link activeClass="active" smooth spy to="expertise-section" className='text-sm'>
                 Expertise
               </Link>      
-              <Link activeClass="active" smooth spy to="component-section" className='text-xl'>
+              <Link activeClass="active" smooth spy to="component-section" className='text-sm'>
                 Components
               </Link>
                 <div className="ml-[2rem] h-[36px] w-[105px] border text-white rounded-3xl bg-[#0375F5] flex items-center align-middle justify-around">
-                <Link activeClass="active" smooth spy to="footer-section" className='text-xl'>
+                <Link activeClass="active" smooth spy to="footer-section" className='text-sm shadow'>
                 Contact us
               </Link>                    </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Navbar() {
                         <Link activeClass='active'smooth spy to='expertise-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg">
                           Expertise
                         </Link>         
-                        <Link activeClass='active'smooth spy to='footer-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg">
+                        <Link activeClass='active'smooth spy to='footer-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg text-sm">
                            Contact us
                         </Link>             
                     </ul>

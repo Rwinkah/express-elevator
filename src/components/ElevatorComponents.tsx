@@ -62,7 +62,7 @@ import {
                     <h4 className="text-xl text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <img className='w-[100%] h-[100%]'src={comp.backImg} /> */}
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
-                    <Popover>
+                    {/* <Popover>
                 <PopoverTrigger asChild>
                     <button className='text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
                 </PopoverTrigger>
@@ -73,7 +73,7 @@ import {
                             ))}
                     </div>
                 </PopoverContent>
-            </Popover>
+            </Popover> */}
                   </CardContent>
                 </Card>
               </div>
