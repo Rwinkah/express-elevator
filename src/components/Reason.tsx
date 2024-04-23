@@ -3,7 +3,7 @@ import reasonImg1 from '../assets/reasonImg1.png'
 import reasonImg2 from '../assets/reasonImg2.png'
 import reasonImg3 from '../assets/reasonImg3.png'
 import reasonImg4 from '../assets/reasonImg4.png'
-import squareBack from '../assets/blueSquareBack.svg'
+// import squareBack from '../assets/blueSquareBack.svg'
 
 export default function Reason() {
     return (

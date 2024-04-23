@@ -1,4 +1,4 @@
-import expImg1 from '../assets/expertiseImg1.png'
+import expImg1 from '../assets/expertiseImg5.svg'
 import expImg2 from '../assets/expressImg2.png'
 import expImg3 from '../assets/expressImg3.png'
 import expImg4 from '../assets/expressImg4.png'
@@ -16,12 +16,11 @@ export default function Expertise() {
                 <h2 className="text-expBlueDark lg:text-4xl text-2xl font-medium text-center mb-4">
                     Our areas of expertise
                 </h2>
-                <p className="text-[#404040] lg:text-lg text-[12px] text-center  lg:w-full w-[80%]">
+                <p className="text-[#404040] lg:text-lg text-[12px] text-center  lg:w-3/4 w-[80%]">
                     We specialize in the installation and maintenance of a diverse range of lifts and elevators,
+                    catering to various needs and requirements, such as...
                 </p>
-                <p className="text-[#404040] lg:text-lg text-[12px] text-center lg:w-full w-[80%]">
-                catering to various needs and requirements, such as...
-                </p>
+
             </div>
             <div className='mt-10 items-center  lg:items-start gap-[2rem] lg:flex-row flex flex-col lg:ml-[15vw] justify-between 2xl:w-[80%] w-[100%] mb-[4.5rem] 2xl:pl-[150px] 2xl:pr-[150px] flex-shrink'>
                 <img src={expImg1} className='w-[343px] h-[360px] md:h-[400px] md:w-[400px]  2xl:h-[420px] 2xl:w-[360px] flex flex-shrink'/>
@@ -32,7 +31,7 @@ export default function Expertise() {
                         <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
                         <div>
                             <h4 className='text-xl font-medium mb-2'>Energy Saving</h4>
-                            <p className=' flex lg:w-[70%] text-[#404040] leading-[24px]'>
+                            <p className=' flex lg:w-[70%] xl:w-[100%]text-[#404040] leading-[24px]'>
                                 The Express Passenger Elevator employs an energy-saving gearless traction system,
                                 cutting energy use by 40% compared to traditional systems, while optimizing space efficiency.
                                 </p>
@@ -105,10 +104,10 @@ export default function Expertise() {
                             </p>
                     </div>
                 </div>
-                <div className='grid grid-cols-2 lg:w-[50%] lg:h-full'>
+                <div className='grid grid-cols-2 lg:w-fit lg:h-full'>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={cutCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Cutting angle shaped cab</p>
+                        <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Cutting angle shaped cab</p>
                     </div>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={squareCab} alt='cut-angle cab'/>
