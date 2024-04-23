@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <section id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">
             <div id="hero-headertext" className=" mt-[5rem] flex items-center flex-col">
-                <h1 className="text-[#333] text-wrap text-center font-semibold md:font-medium w-[80%] text-[52px] mb-4">Rising to new heights with every express elevator ride</h1>
+                <h1 className="text-[#333] text-wrap text-center font-semibold md:font-medium w-[80%] text-[24px] md:text-[52px] mb-4">Rising to new heights with every express elevator ride</h1>
                 <p className="text-[18px] text-[#494A50] md:w-[40%] w-[90%] text-wrap text-center mt-[1rem] md:mb-[4rem] mb-[2rem] leading-[28px]">
                     Ride the Elevator to Innovation: Crafting Vertical Journeys, 
                     One Floor at a Time. Step into Quality, Rise with Confidence

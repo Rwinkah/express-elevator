@@ -13,11 +13,11 @@ import landDoor2 from '../assets/landingDoors2.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
 
 
-// import {
-//   Popover,
-//   PopoverContent,
-//   PopoverTrigger,
-// } from "../../components/ui/popover"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "../../components/ui/popover"
 
 import { Card, CardContent } from "../../components/ui/card"
 import {
@@ -38,12 +38,13 @@ import {
   
   export default function CarouselSize() {
     return (
-      <Carousel
+      <div className=' bg-blue-50 flex flex-col items-center'>
+ <Carousel
       id='component-section'
         opts={{
           align: "start",
         }}
-        className="w-full max h-[fit]  bg-blue-50"
+        className="w-[90vw] max h-[fit]  bg-blue-50"
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
                  <h2 className="text-[#063C79] font-medium text-4xl leading-[43.57px]">Elevator components</h2>
@@ -53,16 +54,15 @@ import {
                      for their lightweight constructions and offer limitless design possibilities and finishes
                      </p>
              </div>
-        <CarouselContent className='w-[100vw] mb-[5rem]'>
+        <CarouselContent className='w-[90%] mb-[5rem] gap-4'>
           {elevData.map((comp) => (
-            <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" >
-              <div className="w-[420px] h-[440px]">
-                <Card style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', width: '100%', height: '100%' }} className="flex p-0 md:justify-center">
-                  <CardContent className="flex p-0 pt-3 pb-3 pl-3 pr-3 box-border   bottom-10 absolute rounded-sm bg-[#999999] h-[72px] w-[89%] lg:w-[340px] opacity-85 shadow-sm gap-[vw]">
-                    <h4 className="text-xl text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
-                    {/* <img className='w-[100%] h-[100%]'src={comp.backImg} /> */}
+            <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
+              <div className="w-[467px] h-[440px]" >
+                <Card  className="flex items-center sm p-0 md:justify-center w-full">
+                  <CardContent className="flex p-0 pt-3 pb-3 ml-2 lg:ml-0 pl-3 pr-3 box-border w-fit  bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  lg:w-[400px] opacity-85 shadow-sm gap-[vw]">
+                    <h4 className="xl:text-xl  text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
-                    {/* <Popover>
+                    <Popover>
                 <PopoverTrigger asChild>
                     <button className='text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
                 </PopoverTrigger>
@@ -73,7 +73,7 @@ import {
                             ))}
                     </div>
                 </PopoverContent>
-            </Popover> */}
+            </Popover>
                   </CardContent>
                 </Card>
               </div>
@@ -85,6 +85,8 @@ import {
                      <CarouselNext />
                  </span>
       </Carousel>
+      </div>
+     
     )
   }
 // export default function CarouselSize() {
