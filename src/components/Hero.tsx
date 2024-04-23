@@ -6,7 +6,7 @@ import UseMediaQuery from '../../lib/use-media-query'
 
 
 export default function Hero() {
-    const isTabletAbove = UseMediaQuery("(min-width: 768px)");
+    const isTabletAbove = UseMediaQuery("(min-width: 1024px)");
 
     return (
         <section id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">

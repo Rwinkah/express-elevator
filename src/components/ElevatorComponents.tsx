@@ -10,6 +10,7 @@ import handRail2 from '../assets/handRailing2.svg'
 import handRail3 from '../assets/handRailing3.svg'
 import landDoor1 from '../assets/landingDoors1.svg'
 import landDoor2 from '../assets/landingDoors2.svg'
+import UseMediaQuery from '../../lib/use-media-query'
 import landDoor3 from '../assets/landingDoors3.svg'
 
 
@@ -37,6 +38,8 @@ import {
 
   
   export default function CarouselSize() {
+    const isTabletAbove = UseMediaQuery("(min-width: 1440px)");
+
     return (
       <div className=' bg-blue-50 flex flex-col items-center'>
  <Carousel
@@ -59,12 +62,12 @@ import {
             <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
               <div className="w-[467px] h-[440px]" >
                 <Card  className="flex items-center sm p-0 md:justify-center w-full">
-                  <CardContent className="flex p-0 pt-3 pb-3 ml-2 lg:ml-0 pl-3 pr-3 box-border w-fit  bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  lg:w-[400px] opacity-85 shadow-sm gap-[vw]">
+                  <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex  pt-3 pb-3 box-border ml-2 lg:ml-0 pl-3 pr-3  w-fit   bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  xl:w-[30%] opacity-85 shadow-sm xs:w-[40%] md:w-[30%]">
                     <h4 className="xl:text-xl  text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
-                    <Popover>
+                    { isTabletAbove &&  <Popover>
                 <PopoverTrigger asChild>
-                    <button className='text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
+                    <button className=' text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
                 </PopoverTrigger>
                 <PopoverContent className=' flex md:w-fit w-1/4 h-1/4'>
                     <div className='flex md:flex-row  gap-4 justify-between'>
@@ -73,7 +76,8 @@ import {
                             ))}
                     </div>
                 </PopoverContent>
-            </Popover>
+            </Popover>}
+                   
                   </CardContent>
                 </Card>
               </div>

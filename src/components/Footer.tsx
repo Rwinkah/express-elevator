@@ -17,7 +17,7 @@ export default function Footer () {
                 <img src={Logo} className='mb-[3rem]' />
                 <span className=''>Plot 8, 10 A Sani Zangon-Daura Street, Guzape, Asokoro, FCT ABUJA, Nigeria</span>
                 <p className='mb-2 mt-[18px]'>Copyright/All rights reserved.</p>
-                <p>Designed by Retro Developers.</p>
+                {/* <p>Designed by Retro Developers.</p> */}
             </div>
             <div id='footer_right' className='w-[20vw]'>
                 <span className='text-base'>Contact us:</span>
