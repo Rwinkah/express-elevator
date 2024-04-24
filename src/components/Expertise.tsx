@@ -16,7 +16,7 @@ export default function Expertise() {
                 <h2 className="text-expBlueDark lg:text-4xl text-2xl font-medium text-center mb-4">
                     Our areas of expertise
                 </h2>
-                <p className="text-[#404040] lg:text-lg text-[12px] text-center  lg:w-3/4 w-[80%]">
+                <p className="text-[#404040] sm:text-lg text-[12px] text-center  lg:w-3/4 w-[80%]">
                     We specialize in the installation and maintenance of a diverse range of lifts and elevators,
                     catering to various needs and requirements, such as...
                 </p>
@@ -31,7 +31,7 @@ export default function Expertise() {
                         <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
                         <div>
                             <h4 className='text-xl font-medium mb-2'>Energy Saving</h4>
-                            <p className=' flex lg:w-[70%] xl:w-[100%]text-[#404040] leading-[24px]'>
+                            <p className=' text-xs md:text-base flex lg:w-[70%] xl:w-[100%]text-[#404040] leading-[24px]'>
                                 The Express Passenger Elevator employs an energy-saving gearless traction system,
                                 cutting energy use by 40% compared to traditional systems, while optimizing space efficiency.
                                 </p>
@@ -42,7 +42,7 @@ export default function Expertise() {
                         <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
                         <div> 
                             <h4 className='text-xl font-medium mb-2'>Compact Design</h4>
-                            <p className='lg:w-[70%] text-[#404040] leading-[24px]'>
+                            <p className=' ext-xs md:text-base lg:w-[70%] text-[#404040] leading-[24px]'>
                             The small machine room passenger elevator is a novel concept that reduces the machine room area by over 40%
                              compared to traditional elevators, saving construction space and increasing usability.
                                 </p>
@@ -84,25 +84,31 @@ export default function Expertise() {
                     </p>
                 </div>
             </div>
-            <div className='flex justify-between lg:flex-row flex-col box-border lg:pr-[150px] w-[100%] lg:pl-[150px] mb-[4.5rem] items-center lg:h-[272px]'>
-                <div className='flex lg:h-[50%] lg:flex-row flex-col items-center'>
-                    <span className='flex flex-col items-center'>
-                        <h4 className='text-[#333333] text-2xl font-medium leading-[29.05px] mb-[1.5rem]'>Sightseeing elevators</h4>
-                        <p className='flex leading-[23px] w-[90%] '>
-                        <span className=' h-[6rem]  border border-[#1780F5] mr-[1.5rem]' />
 
-                            It uses modern materials, fully computerized VVVF speed control,
-                             integrated data network, modular structure, and advanced machining.
-                        </p>
-                    </span>
-                    <div className=' flex items-center h-full flex-row w-full mb-[4rem]'>
-                       <span className=' flex-start lg:h-[80%] h-[100px]  border border-[#1780F5] ml-5 mr-[1.5rem] mt-[3rem]' />
-                        <p className='leading-[24px] w-[80%] pt-[3rem]'>
-                            It presents a compact and attractive space,
-                            accommodating diverse construction designs, including round, half-square,
-                            and angled cuts.
+            <div className='flex justify-lg:flex-row flex-col box-border lg:pr-[150px] w-[100%] lg:pl-[150px] mb-[4.5rem] items-center lg:h-[272px]'>
+                <div className='flex lg:h-[50%] lg:flex-row flex-col sm:items-center justify-between'>
+                    <div className='flex flex-col pl-[5vw] justify-center'>
+                       <h4 className='text-[#333333] text-2xl font-medium leading-[29.05px] mb-[1.5rem]'>Sightseeing elevators</h4>
+                       <div className='flex flex-col lg:flex-row gap-4 mb-8 '>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%]'>
+                            <p className=' flex leading-[23px] w-[90%] sm:text-base text-xs '>
+                            <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' />
+
+                                It uses modern materials, fully computerized VVVF speed control,
+                                integrated data network, modular structure, and advanced machining.
                             </p>
+                        </span>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] sm:text-base text-xs'>
+                            <p className='flex leading-[23px] w-[90%] '>
+                            <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' />
+                                It presents a compact and attractive space,
+                                accommodating diverse construction designs, including round, half-square,
+                                and angled cuts.
+                            </p>
+                        </span>
                     </div>
+                    </div>
+
                 </div>
                 <div className='grid grid-cols-2 lg:w-fit lg:h-full'>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
