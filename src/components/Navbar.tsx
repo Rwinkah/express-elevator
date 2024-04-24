@@ -22,7 +22,7 @@ export default function Navbar() {
                 <Link activeClass="active" smooth spy to="reason-section" className='text-sm'>
                 Why choose us
               </Link>         
-              <Link activeClass="active" smooth spy to="expertise-section" className='text-sm'>
+              <Link activeClass="active" id='navbarExpertise'  smooth spy to="expertise-section" className='text-sm'>
                 Expertise
               </Link>      
               <Link activeClass="active" smooth spy to="component-section" className='text-sm'>
@@ -50,10 +50,10 @@ export default function Navbar() {
                         <Link activeClass='active'smooth spy to='reason-section'  className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg">
                              Why choose us
                         </Link>
-                        <Link activeClass='active'smooth spy to='expertise-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg">
+                        <Link id='navbarExpertise' activeClass='active'smooth spy to='expertise-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg">
                           Expertise
                         </Link>         
-                        <Link activeClass='active'smooth spy to='footer-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg text-sm">
+                        <Link activeClass='active'smooth spy to='footer-section' className="border h-[4rem] w-full items-center flex pl-10 pt-2 pb-2  bg-[#283757] rounded-lg ">
                            Contact us
                         </Link>             
                     </ul>

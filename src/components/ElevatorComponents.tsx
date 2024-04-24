@@ -62,7 +62,7 @@ import {
             <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
               <div className="w-[467px] h-[440px]" >
                 <Card  className="flex items-center sm p-0 md:justify-center w-full">
-                  <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex  pt-3 pb-3 box-border ml-2 lg:ml-0 pl-3 pr-3  w-fit   bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  xl:w-[30%] opacity-85 shadow-sm xs:w-[40%] md:w-[30%]">
+                  <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex  pt-3 pb-3 box-border ml-2 lg:ml-0 pl-3 pr-3  w-[80%]   bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  xl:w-[30%] opacity-85 shadow-sm xs:w-[80%] md:w-[30%]">
                     <h4 className="xl:text-xl  text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
                     { isTabletAbove &&  <Popover>

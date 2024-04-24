@@ -3,7 +3,9 @@ import Hero2 from '../assets/Hero2.svg'
 import Hero3 from '../assets/Hero3.svg'
 import UseMediaQuery from '../../lib/use-media-query'
 
-
+function passengerRedir () {
+    document.getElementById('navbarExpertise')?.click()
+}
 
 export default function Hero() {
     const isTabletAbove = UseMediaQuery("(min-width: 1024px)");
@@ -20,7 +22,7 @@ export default function Hero() {
 
             {isTabletAbove ? 
                         <div id="hero-image" className="flex  gap-3 ">
-                        <img className="w-[366px] h-[486px]" src={Hero1} />
+                        <img className="w-[366px] h-[486px]" onClick={passengerRedir} src={Hero1} />
         
                         <div className="m-0 p-0 flex flex-col gap-[6rem] items-center">
                             <img className="h-[250px]- w-[20vw]" src={Hero2} />
