@@ -10,7 +10,7 @@ import squareCab from '../assets/squareShapedCab.svg'
 // import grid from '../assets/grid.png'
 // import mesh from '../assets/mesh.png'
 export default function Expertise() {
-    return (
+    return( 
         <section id="expertise-section" className="flex flex-col items-center h-[fit] bg-white">
             <div id="expertise-headertext" className=" flex flex-col mt-[60px] lg:pl-[150px] lg:pr-[150px] items-center ">
                 <h2 className="text-expBlueDark lg:text-4xl text-2xl font-medium text-center mb-4">
@@ -67,17 +67,17 @@ export default function Expertise() {
                          This design saves both cost and space compared to traditional hydraulic elevators.
                         </p>
                 </div>
-                <div className='flex w-[%] gap-4 justify-between'>
+                <div className='flex flex-col md:flex-row gap-4 justify-between'>
                     <img className='flex w-full h-auto'  src={expImg2}/>
                     <img className='flex w-full h-auto' src={expImg3} />
                 </div>
             </div>
-            <div className='flex  lg:flex-row gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] lg:pl-[150px] lg:pr-[150px]'>
+            <div className='flex  lg:flex-row gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] xl:pl-[150px] xl:pr-[150px]'>
                 {/* <img src={grid} className='z-0 absolute h-[10rem] w-[10rem]' /> */}
                 <img className='lg:h-auto h-2/4'src={expImg4} />
-                <div className='flex justify-center flex-col mlg:w-[50%]'>
+                <div className='flex justify-center flex-col xl:w-[50%]'>
                     <h3 className='text-2xl font-medium leading-[29px] mb-5'>Hospital elevators</h3>
-                    <p className='leading-[24px] text-[#404040] lg:w-2/3'>
+                    <p className='leading-[24px] text-[#404040] 2xl:w-2/3'>
                     Medical elevators serve dual purposes, transporting passengers while meeting strict functional requirements.
                      The Express medical elevator ensures precise control of speed for smooth,
                      comfortable rides, creating a serene environment.
@@ -85,7 +85,7 @@ export default function Expertise() {
                 </div>
             </div>
 
-            <div className='flex justify-lg:flex-row flex-col box-border lg:pr-[150px] w-[100%] lg:pl-[150px] mb-[4.5rem] items-center lg:h-[272px]'>
+            <div className='flex lg:flex-row flex-col box-border 2xl:pr-[150px] w-[100%] 2xl:pl-[150px] mb-[4.5rem] items-center lg:h-[272px]'>
                 <div className='flex lg:h-[50%] lg:flex-row flex-col sm:items-center justify-between'>
                     <div className='flex flex-col pl-[5vw] justify-center'>
                        <h4 className='text-[#333333] text-2xl font-medium leading-[29.05px] mb-[1.5rem]'>Sightseeing elevators</h4>
@@ -110,22 +110,22 @@ export default function Expertise() {
                     </div>
 
                 </div>
-                <div className='grid grid-cols-2 lg:w-fit lg:h-full'>
+                <div className='grid grid-cols-2 lg:w-full sm:w-4/5 lg:h-full'>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={cutCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Cutting angle shaped cab</p>
+                        <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] sm:text-[12px]  xl:text-lg'>Cutting angle shaped cab</p>
                     </div>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={squareCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Square shaped cab</p>
+                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Square shaped cab</p>
                     </div>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={semiCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Semi-circle shaped cab</p>
+                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Semi-circle shaped cab</p>
                     </div>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
                         <img src={futureCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] lg:text-lg text-[12px]'>Future prospects cab</p>
+                        <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Future prospects cab</p>
                     </div>
                 </div>
             </div>
