@@ -51,7 +51,7 @@ import {
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
                  <h2 className="text-[#063C79] font-medium text-4xl leading-[43.57px]">Elevator components</h2>
-               <p className="leading-[28px] md:w-[48%] w-[80%] flex">
+               <p className="leading-[28px] md:w-[70%] w-[100%] flex">
                      Discover our elevator components tailored to fit any elevator model.
                      Our industry-leading cab interior panels and ceilings are renowned
                      for their lightweight constructions and offer limitless design possibilities and finishes
