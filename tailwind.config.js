@@ -19,11 +19,22 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans : ["Inter", "sans-serif"],
+      },
+      screens: {
+        'xs': '480px',
+      },
+      boxShadow: {
+        expButton: '-5px -5px 15px , 5px 5px 15px #fff, inset 5px 5px 10px #, inset -5px -5px 10px #fff',
+      },
       backgroundImage: theme => ({
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'carDecor': "url('src/assets/carDecoration1.svg)",
         'elevWell': "url('/src/assets/elevatorWell1.svg)",
         'handRail': "url('/src/assets/handRailing1.svg)",
-        'landDoor': "url('/src/assets/landingDoors1.svg)"
+        'landDoor': "url('/src/assets/landingDoors1.svg)",
+        'blueSquareBack:': "url('/src/assets/blueSquareBack.svg')",
       }),
       colors: {
         'expBlue': '#0375F5',
