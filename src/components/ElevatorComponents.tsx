@@ -11,6 +11,7 @@ import handRail3 from '../assets/handRailing3.svg'
 import landDoor1 from '../assets/landingDoors1.svg'
 import landDoor2 from '../assets/landingDoors2.svg'
 import UseMediaQuery from '../../lib/use-media-query'
+import squareBack from '../assets/blueSquareBack.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
 
 
@@ -47,7 +48,8 @@ import {
         opts={{
           align: "start",
         }}
-        className="w-[90vw] max h-[fit]  bg-blue-50"
+        className="w-[90vw] max h-[fit]"
+        style={{backgroundImage: `url(${squareBack  })`}}
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
                  <h2 className="text-[#063C79] font-medium text-4xl leading-[43.57px]">Elevator components</h2>
