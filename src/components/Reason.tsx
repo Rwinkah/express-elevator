@@ -3,7 +3,7 @@ import reasonImg1 from '../assets/reasonImg1.png'
 import reasonImg2 from '../assets/reasonImg2.png'
 import reasonImg3 from '../assets/reasonImg3.png'
 import reasonImg4 from '../assets/reasonImg4.png'
-// import squareBack from '../assets/blueSquareBack.svg'
+import squareBack from '../assets/blueSquareBack.svg'
 
 export default function Reason() {
     return (
@@ -20,7 +20,7 @@ export default function Reason() {
                     <p className="text-[#404040] text-sm text-center md:mb-[3.5rem] mb-2">
                         have a safe trip to your destination.
                     </p>
-                <div className="bg-repeat bg-[url(./blueSquareBack.svg)] pt-10 items-center w-full xl:items-start  flex flex-col">
+                <div className="bg-repeat pt-10 items-center w-full xl:items-start  flex flex-col" style={{backgroundImage: `url(${squareBack})`}}>
                     <h5 className=" text-[#333333] md:text-2xl font-medium w-fit text-base ">Your safety is our number one priority</h5>
                     <p  className="text-[#404040] md:text-lg mb-[1.25rem] text-sm w-[92%] md:w-[50%] md:pt-0 pt-2">
                         We prioritize safety in the design, manufacturing, installation, 
