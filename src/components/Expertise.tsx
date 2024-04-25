@@ -27,11 +27,11 @@ export default function Expertise() {
             <div className='mt-10 items-center  lg:items-start gap-[2rem] lg:flex-row flex flex-col lg:ml-[15vw] justify-between 2xl:w-[80%] w-[100%] mb-[4.5rem] 2xl:pl-[150px] 2xl:pr-[150px] flex-shrink'>
                 <img src={expImg1} className='w-[343px] h-[360px] md:h-[400px] md:w-[400px]  2xl:h-[420px] 2xl:w-[360px] flex flex-shrink'/>
                 <div className='flex pl-[3rem] box-border lg:w-[55%]'>
-                    <div className='flex justify-center flex-col w-full gap-1 '> 
-                    <h3 className='font-medium text-2xl mb-[28px] mt-[5vh]'>Passenger Elevators</h3>
-                    <span className='flex lg:h-[25%] mb-[4rem]'>
-                        <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
-                        <div>
+                    <div className='flex justify-center flex-col w-full gap-8 '> 
+                    <h3 className='font-medium text-2xl  mt-[5vh] lg:mt-0'>Passenger Elevators</h3>
+                    <span className='flex lg:h-[fit]  border-l-2 border-[#1780f5] p-4 pt-0'>
+                        {/* <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' /> */}
+                        <div className=''>
                             <h4 className='text-xl font-medium mb-2'>Energy Saving</h4>
                             <p className=' text-xs md:text-base flex lg:w-[70%] xl:w-[100%]text-[#404040] leading-[24px]'>
                                 The Express Passenger Elevator employs an energy-saving gearless traction system,
@@ -40,8 +40,8 @@ export default function Expertise() {
                         </div>
 
                     </span>
-                    <span className='flex lg:min-h-[25%] text-[#404040] leading-[24px]'>
-                        <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' />
+                    <span className='flex lg:h-[fit] mb-[4rem] border-l-2 border-[#1780f5] p-4 pt-0'>
+                        {/* <span className=' h-fill border border-[#1780F5] mr-[1.5rem]' /> */}
                         <div> 
                             <h4 className='text-xl font-medium mb-2'>Compact Design</h4>
                             <p className=' ext-xs md:text-base lg:w-[70%] text-[#404040] leading-[24px]'>
