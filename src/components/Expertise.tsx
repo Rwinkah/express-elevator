@@ -98,17 +98,17 @@ export default function Expertise() {
                     <div className='flex flex-col pl-[5vw] justify-center'>
                        <h4 className='text-[#333333] text-2xl font-medium leading-[29.05px] mb-[1.5rem]'>Sightseeing elevators</h4>
                        <div className='flex flex-col lg:flex-row gap-4 mb-8 '>
-                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%]'>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] p-4'>
                             <p className=' flex leading-[23px] w-[90%] sm:text-base text-xs '>
-                            <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' />
+                            {/* <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' /> */}
 
                                 It uses modern materials, fully computerized VVVF speed control,
                                 integrated data network, modular structure, and advanced machining.
                             </p>
                         </span>
-                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] sm:text-base text-xs'>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] p-4'>
                             <p className='flex leading-[23px] w-[90%] '>
-                            <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' />
+                            {/* <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' /> */}
                                 It presents a compact and attractive space,
                                 accommodating diverse construction designs, including round, half-square,
                                 and angled cuts.
@@ -119,19 +119,19 @@ export default function Expertise() {
 
                 </div>
                 <div className='grid grid-cols-2 lg:w-full sm:w-4/5 lg:h-full'>
-                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
+                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%] rounded-[12px]  hover:scale-105 duration-300'>
                         <img src={cutCab} alt='cut-angle cab'/>
-                        <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] sm:text-[12px]  xl:text-lg'>Cutting angle shaped cab</p>
+                        <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] sm:text-[12px]  xl:text-lg '>Cutting angle shaped cab</p>
                     </div>
-                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
+                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%] rounded-[12px]  hover:scale-105 duration-300'>
                         <img src={squareCab} alt='cut-angle cab'/>
                         <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Square shaped cab</p>
                     </div>
-                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
+                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%] rounded-[12px]  hover:scale-105 duration-300'>
                         <img src={semiCab} alt='cut-angle cab'/>
                         <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Semi-circle shaped cab</p>
                     </div>
-                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%]'>
+                    <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%] rounded-[12px] hover:scale-105 duration-300'>
                         <img src={futureCab} alt='cut-angle cab'/>
                         <p className='leading-24px ml-3 w-[50%] lg:w-[60%] color-[#333] sm:text-[12px] xl:text-lg'>Future prospects cab</p>
                     </div>
