@@ -6,13 +6,15 @@ import cutCab from '../assets/cutAngleCab.svg'
 import semiCab from '../assets/semiCircleCab.png'
 import futureCab from '../assets/futureCab.png'
 import squareCab from '../assets/squareShapedCab.svg'
+import meshBack from '../assets/mesh_baground.svg'
+import dotsBack from '../assets/bacground_dots.svg'
 
 // import grid from '../assets/grid.png'
 // import mesh from '../assets/mesh.png'
 export default function Expertise() {
     return( 
         <section id="expertise-section" className="flex flex-col items-center h-[fit] bg-white">
-            <div id="expertise-headertext" className=" flex flex-col mt-[60px] lg:pl-[150px] lg:pr-[150px] items-center ">
+            <div id="expertise-headertext" className=" flex flex-col mt-[60px] lg:pl-[150px] lg:pr-[150px] items-center " >
                 <h2 className="text-expBlueDark lg:text-4xl text-2xl font-medium text-center mb-4">
                     Our areas of expertise
                 </h2>
@@ -49,16 +51,15 @@ export default function Expertise() {
                         </div>
 
                     </span>
-                    <span>
 
-                    </span>
                     </div>
+                    <img src={meshBack} className='z[-1] hidden xl:flex absolute right-0 2xl:right-[200px] w-[500px] h-[766px]' />
 
                 </div> 
                 <div></div> 
                 {/* <img className=' absolute z-0 w-[30rem] h-[30rem]' src={mesh} /> */}
             </div>
-            <div className=' flex lg:flex-row flex-col justify-around w-[80%] md:w-full pl-2 pr-2 mb-[4.5rem] 2xl:pl-[150px] 2xl:pr-[150px]'>
+            <div className=' flex lg:flex-row flex-col justify-around w-[80%] md:w-full pl-2 pr-2 mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
                 <div className='lg:w-[45%] flex flex-col justify-center'> 
                     <h3 className='text-2xl mb-[1.5rem] font-medium'>Villa elevators (Machine room-less)</h3>
                     <p className=' leading-[20px] lg:leading-[29.05px] w-full mb-6 lg:mb-0 text-[12px] lg:text-base'>
@@ -72,9 +73,14 @@ export default function Expertise() {
                     <img className='flex w-full h-auto' src={expImg3} />
                 </div>
             </div>
-            <div className='flex  lg:flex-row gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] xl:pl-[150px] xl:pr-[150px]'>
+            <div className='flex  lg:flex-row gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
                 {/* <img src={grid} className='z-0 absolute h-[10rem] w-[10rem]' /> */}
+                <div className=' bg-cover w-[566px] h-[566px] flex items-center justify-center' style={{backgroundImage: `url(${dotsBack})`}}>
+                {/* <img src={dotsBack} className=' absolute hidden  xl:flex w-[564] object-cover  h-[564px]' /> */}
+        
                 <img className='lg:h-auto h-2/4'src={expImg4} />
+                </div>
+
                 <div className='flex justify-center flex-col xl:w-[50%]'>
                     <h3 className='text-2xl font-medium leading-[29px] mb-5'>Hospital elevators</h3>
                     <p className='leading-[24px] text-[#404040] 2xl:w-2/3'>
@@ -83,6 +89,8 @@ export default function Expertise() {
                      comfortable rides, creating a serene environment.
                     </p>
                 </div>
+                <img src={meshBack} className=' absolute hidden  xl:flex  right-[200px] w-[500px] h-[766px]' />
+
             </div>
 
             <div className='flex lg:flex-row flex-col box-border 2xl:pr-[150px] w-[100%] 2xl:pl-[150px] mb-[4.5rem] items-center lg:h-[272px]'>
