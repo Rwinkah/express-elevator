@@ -48,7 +48,7 @@ import {
 
     return (
       <div className=' bg-blue-50 flex flex-col items-center'>
- <Carousel
+      <Carousel
       plugins={[plugin.current]}
       id='component-section'
         opts={{
