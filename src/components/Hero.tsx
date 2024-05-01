@@ -17,26 +17,26 @@ export default function Hero() {
         animate: { opacity: 1, y: 0 },
         transition: { duration: 3 },
     }), []);
-    const delayedAnimationProps = useMemo(() => ({
-        initial: { opacity: 0, y: 80 },
-        animate: { opacity: 1, y: 0 },
-        transition: { delay: 1, duration: 2 },
-    }), []);
-    const delayPropsImg1 = useMemo(() => ({
-        initial: { opacity: 0, y: 80 },
-        animate: { opacity: 1, y: 0 },
-        transition: { delay: .5, duration: 1 },
-    }), []);
-    const delayPropsImg2 = useMemo(() => ({
-        initial: { opacity: 0, y: 80 },
-        animate: { opacity: 1, y: 0 },
-        transition: { delay: 1, duration: 1 },
-    }), []);
-    const delayPropsImg3 = useMemo(() => ({
-        initial: { opacity: 0, y: 80 },
-        animate: { opacity: 1, y: 0 },
-        transition: { delay: 1.5, duration: 1 },
-    }), []);
+    // const delayedAnimationProps = useMemo(() => ({
+    //     initial: { opacity: 0, y: 80 },
+    //     animate: { opacity: 1, y: 0 },
+    //     transition: { delay: 1, duration: 2 },
+    // }), []);
+    // const delayPropsImg1 = useMemo(() => ({
+    //     initial: { opacity: 0, y: 80 },
+    //     animate: { opacity: 1, y: 0 },
+    //     transition: { delay: .5, duration: 1 },
+    // }), []);
+    // const delayPropsImg2 = useMemo(() => ({
+    //     initial: { opacity: 0, y: 80 },
+    //     animate: { opacity: 1, y: 0 },
+    //     transition: { delay: 1, duration: 1 },
+    // }), []);
+    // const delayPropsImg3 = useMemo(() => ({
+    //     initial: { opacity: 0, y: 80 },
+    //     animate: { opacity: 1, y: 0 },
+    //     transition: { delay: 1.5, duration: 1 },
+    // }), []);
 
     return (
         <motion.section {...animationProps} id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">
