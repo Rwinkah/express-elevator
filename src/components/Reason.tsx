@@ -7,7 +7,7 @@ import squareBack from '../assets/blueSquareBack.svg'
 
 export default function Reason() {
     return (
-        <section id=" box-border reason-section" className=" pl-4 pr-4 flex flex-col items-center h-fit 2xl:pl-[150px] lg:pl-[30px] 2xl:pr-[150px] lg:pr-[30px] bg-[#F7FAFF]">
+        <section id=" box-border reason-section" className="box-border min-h-fit pl-4 pr-4 flex flex-col items-center h-fit 2xl:pl-[150px] lg:pl-[30px] 2xl:pr-[150px] lg:pr-[30px] bg-[#F7FAFF] 2xl:mb-[4rem]">
             <div id="reason-headertext" className='w-full h-fit  flex-col items-center'>
                 <h2 className="text-[#063C79] text-4xl font-medium text-center mb-4 mt-4 tracking-[2%]">
                     Why choose us
@@ -60,7 +60,7 @@ export default function Reason() {
                              it's upgrading with Express Elevator's unique characteristics.
                             </p>
                     </div>
-                    <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] mt-[54px]">
+                    <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] xl:mt-0 mt-[54px]">
                         <img className='flex w-full rounded-2xl' src={reasonImg1} />
                         <img className='flex w-full rounded-2xl' src={reasonImg2} />
                         <img className='flex w-full rounded-2xl' src={reasonImg3} />
