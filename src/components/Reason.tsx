@@ -7,7 +7,7 @@ import squareBack from '../assets/blueSquareBack.svg'
 
 export default function Reason() {
     return (
-        <section id="reason-section" className="flex flex-col items-center h-fit 2xl:pl-[150px] lg:pl-[30px] 2xl:pr-[150px] lg:pr-[30px] bg-[#F7FAFF]">
+        <section id=" box-border reason-section" className=" pl-4 pr-4 flex flex-col items-center h-fit 2xl:pl-[150px] lg:pl-[30px] 2xl:pr-[150px] lg:pr-[30px] bg-[#F7FAFF]">
             <div id="reason-headertext" className='w-full h-fit  flex-col items-center'>
                 <h2 className="text-[#063C79] text-4xl font-medium text-center mb-4 mt-4 tracking-[2%]">
                     Why choose us
@@ -50,7 +50,7 @@ export default function Reason() {
                     </div>
 
                 </div>
-                <div className="flex md:flex-row flex-col md:h-[50vh] min-h-[50vh] justify-between mb-[3.75rem] ml-4 md:ml-0 mt-[40px] md:items-start items-center">
+                <div className=" box-border flex md:flex-row flex-col md:h-[50vh] min-h-[50vh] justify-between mb-[3.75rem] ml-4 md:ml-0 mt-[40px] md:items-start items-center">
                     <div className="md:w- w-full flex flex-col h-full  justify-center ">
                         <h3 className="md:w-[60%] font-medium md:text-2xl text-normal mb-4 leading-[24px] w-[95%]">Industry 4.0 intelligent manufacturing</h3>
                         <p className="md:w-[80%] md:leading-normal leading-5 text-[#404040] md:text-base text-[12px] w-[95%] ">
@@ -60,11 +60,11 @@ export default function Reason() {
                              it's upgrading with Express Elevator's unique characteristics.
                             </p>
                     </div>
-                    <span className="grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] mt-[54px]">
-                        <img className='flex w-auto rounded-2xl' src={reasonImg1} />
-                        <img className='flex w-auto rounded-2xl' src={reasonImg2} />
-                        <img className='flex w-auto rounded-2xl' src={reasonImg3} />
-                        <img className='flex w-auto rounded-2xl' src={reasonImg4}/>
+                    <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] mt-[54px]">
+                        <img className='flex w-full rounded-2xl' src={reasonImg1} />
+                        <img className='flex w-full rounded-2xl' src={reasonImg2} />
+                        <img className='flex w-full rounded-2xl' src={reasonImg3} />
+                        <img className='flex w-full rounded-2xl' src={reasonImg4}/>
                     </span>
                 </div>
                 </div>

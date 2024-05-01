@@ -1,4 +1,4 @@
-// import * as React from "react"
+import * as React from "react"
 import carDec1 from '../assets/carDecoration1.svg'
 import carDec2 from '../assets/carDecoration2.svg'
 import carDec3 from '../assets/carDecoration3.svg'
@@ -13,6 +13,9 @@ import landDoor2 from '../assets/landingDoors2.svg'
 import UseMediaQuery from '../../lib/use-media-query'
 import squareBack from '../assets/blueSquareBack.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
+
+import AutoPlay from 'embla-carousel-autoplay'
+
 
 
 import {
@@ -39,15 +42,20 @@ import {
 
   
   export default function CarouselSize() {
+    const plugin = React.useRef(AutoPlay({delay: 1000}))
+
     const isTabletAbove = UseMediaQuery("(min-width: 1440px)");
 
     return (
       <div className=' bg-blue-50 flex flex-col items-center'>
  <Carousel
+      plugins={[plugin.current]}
       id='component-section'
         opts={{
           align: "start",
+          loop: false
         }}
+        // ref={emblaRef}
         className="w-[90vw] max h-[fit]"
         style={{backgroundImage: `url(${squareBack  })`}}
       >

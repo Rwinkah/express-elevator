@@ -10,7 +10,7 @@ export default function Navbar() {
     const isTabletAbove = UseMediaQuery("(min-width: 768px)");
     const [isOpen, setOpen] = useState(false);
     return (
-        <div className='z-[10] top-0'>
+        <div className='z-[10] top-0 cursor-pointer'>
         {
             isTabletAbove ? (
                 <nav  className="flex pl-[155px] pr-[155px] h-[68px] justify-between bg-white  center items-center  w-[100vw] z-[1000] box-border  top-0 fixed text-sm shadow-lg">

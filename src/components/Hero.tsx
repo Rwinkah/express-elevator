@@ -2,16 +2,44 @@ import Hero1 from '../assets/Hero1.svg'
 import Hero2 from '../assets/Hero2.svg'
 import Hero3 from '../assets/Hero3.svg'
 import UseMediaQuery from '../../lib/use-media-query'
+import { motion } from 'framer-motion';
+import { useMemo } from 'react';
 
 function passengerRedir () {
     document.getElementById('navbarExpertise')?.click()
 }
 
+
 export default function Hero() {
     const isTabletAbove = UseMediaQuery("(min-width: 1024px)");
+    const animationProps = useMemo(() => ({
+        initial: { opacity: 0, y: 80 },
+        animate: { opacity: 1, y: 0 },
+        transition: { duration: 3 },
+    }), []);
+    const delayedAnimationProps = useMemo(() => ({
+        initial: { opacity: 0, y: 80 },
+        animate: { opacity: 1, y: 0 },
+        transition: { delay: 1, duration: 2 },
+    }), []);
+    const delayPropsImg1 = useMemo(() => ({
+        initial: { opacity: 0, y: 80 },
+        animate: { opacity: 1, y: 0 },
+        transition: { delay: .5, duration: 1 },
+    }), []);
+    const delayPropsImg2 = useMemo(() => ({
+        initial: { opacity: 0, y: 80 },
+        animate: { opacity: 1, y: 0 },
+        transition: { delay: 1, duration: 1 },
+    }), []);
+    const delayPropsImg3 = useMemo(() => ({
+        initial: { opacity: 0, y: 80 },
+        animate: { opacity: 1, y: 0 },
+        transition: { delay: 1.5, duration: 1 },
+    }), []);
 
     return (
-        <section id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">
+        <motion.section {...animationProps} id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">
             <div id="hero-headertext" className=" mt-[5rem] flex items-center flex-col">
                 <h1 className="text-[#333] text-wrap text-center font-semibold md:font-medium w-[80%] text-[24px] md:text-[52px] mb-4">Rising to new heights with every express elevator ride</h1>
                 <p className="text-[18px] text-[#494A50] md:w-[40%] w-[90%] text-wrap text-center mt-[1rem] md:mb-[4rem] mb-[2rem] leading-[28px]">
@@ -21,16 +49,16 @@ export default function Hero() {
             </div>
 
             {isTabletAbove ? 
-                        <div id="hero-image" className="flex  gap-3 ">
-                        <img className="w-[366px] h-[486px]" onClick={passengerRedir} src={Hero1} />
+                        <motion.div {...animationProps} id="hero-image" className="flex  gap-3 ">
+                        <motion.img {...animationProps} className="w-[366px] h-[486px]" onClick={passengerRedir} src={Hero1} />
         
-                        <div className="m-0 p-0 flex flex-col gap-[6rem] items-center">
+                        <motion.div {...animationProps} className="m-0 p-0 flex flex-col gap-[6rem] items-center">
                             <img className="h-[250px]- w-[20vw]" src={Hero2} />
                             <button className="rounded-3xl text-white bg-expBlue w-[272px] h-[47px] shadow-expButton font-medium text-[20px]"> Get a free quote</button>
-                        </div>
-                        <img className="w-[366px] h-[486px]" src={Hero3} />
+                        </motion.div>
+                        <motion.img {...animationProps} className="w-[366px] h-[486px]" src={Hero3} />
         
-                    </div> : 
+                    </motion.div> : 
                     (
                         <div id='hero-image-mobile' className='flex-col w-full'>
                         <div className='flex w-full justify-evenly'>
@@ -48,6 +76,6 @@ export default function Hero() {
 
 
 
-        </section>
+        </motion.section>
     )
 }
