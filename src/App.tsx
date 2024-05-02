@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Navbar/>
-        <div id='main-page' className='bg-[#fafafa] max-w-[100vw] m-0 p-0 overflow-x-hidden'>
+        <div id='main-page' className='flex flex-col gap-5 bg-[#fafafa] max-w-[100vw] m-0 p-0 overflow-x-hidden'>
       <Hero  />
       <Reason />
       <TechTalk />
