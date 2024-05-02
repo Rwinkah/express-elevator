@@ -1,4 +1,4 @@
-import techBack from '../assets/techBack.svg'
+import techBack from '../assets/techBack.png'
 import engineObj from '../assets/engineObject.svg'
 import {motion} from 'framer-motion'
 import circleGroup from '../assets/circleGroup.svg'
