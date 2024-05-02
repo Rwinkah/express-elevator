@@ -50,7 +50,7 @@ export default function Reason() {
                     </div>
 
                 </div>
-                <div className=" box-border flex md:flex-row flex-col md:h-[50vh] min-h-[50vh] justify-between mb-[3.75rem] ml-4 md:ml-0 mt-[40px] md:items-start items-center">
+                <div className="box-border flex md:flex-row flex-col md:h-[50vh] min-h-[50vh] object-contain justify-between mb-[3.75rem] ml-4 md:ml-0 mt-[40px] md:items-start items-center">
                     <div className="md:w- w-full flex flex-col h-full  justify-center ">
                         <h3 className="md:w-[60%] font-medium md:text-2xl text-normal mb-4 leading-[24px] w-[95%]">Industry 4.0 intelligent manufacturing</h3>
                         <p className="md:w-[80%] md:leading-normal leading-5 text-[#404040] md:text-base text-[12px] w-[95%] ">
@@ -61,10 +61,10 @@ export default function Reason() {
                             </p>
                     </div>
                     <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] xl:mt-0 mt-[54px]">
-                        <img className='flex w-full rounded-2xl' src={reasonImg1} />
-                        <img className='flex w-full rounded-2xl' src={reasonImg2} />
-                        <img className='flex w-full rounded-2xl' src={reasonImg3} />
-                        <img className='flex w-full rounded-2xl' src={reasonImg4}/>
+                        <img className='md:w-3/4 flex w-full rounded-2xl' src={reasonImg1} />
+                        <img className='flex md:w-3/4 xl:w-full w-full rounded-2xl' src={reasonImg2} />
+                        <img className='flex md:w-3/4 xl:w-full w-full rounded-2xl' src={reasonImg3} />
+                        <img className='flex md:w-3/4  xl:w-full w-full rounded-2xl' src={reasonImg4}/>
                     </span>
                 </div>
                 </div>
