@@ -29,7 +29,7 @@ export default function TechTalk () {
     }), []);
     return (
 
-        <motion.section className='w-full h-[621px] bg-cover flex gap-0'
+        <section className='w-full h-[621px] bg-cover flex gap-0'
          style={{backgroundImage: `url(${techBack})`}}
          id="techtalk-section">
 
@@ -73,6 +73,6 @@ export default function TechTalk () {
 
                 <motion.img  {...blinkProp}  src={circleGroup}  className='h-2/4'/>
             </motion.div> 
-        </motion.section>
+        </section>
     )
 }
