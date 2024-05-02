@@ -47,7 +47,7 @@ import {
     const isTabletAbove = UseMediaQuery("(min-width: 1440px)");
 
     return (
-      <div className=' bg-blue-50 flex flex-col items-center'>
+      <div className=' bg-blue-50 flex flex-col items-center mt-10'>
       <Carousel
       plugins={[plugin.current]}
       id='component-section'
@@ -56,7 +56,7 @@ import {
           loop: false
         }}
         // ref={emblaRef}
-        className="w-[90vw] max h-[fit]"
+        className="w-[90vw] max-h-[fit]"
         style={{backgroundImage: `url(${squareBack  })`}}
       >
                    <div id="header-text" className="pl-[5vw] pt-[5vh]">
