@@ -1,4 +1,4 @@
-import techBack from '../assets/techBack.svg'
+// import techBack from '../assets/techBack.svg'
 import engineObj from '../assets/engineObject.svg'
 import {motion} from 'framer-motion'
 import circleGroup from '../assets/circleGroup.svg'
@@ -9,6 +9,7 @@ import circleLine from '../assets/circleLine.svg'
 // import { Circle } from 'lucide-react'
 import circleRight from '../assets/circleGroupRight.svg'
 import { useMemo } from 'react'
+import squareBack from '../assets/blueSquareBack.svg'
 
 
 export default function TechTalk () {
@@ -30,7 +31,7 @@ export default function TechTalk () {
     return (
 
         <section className='w-full h-[621px] bg-cover flex gap-0'
-         style={{backgroundImage: `url(${techBack})`}}
+        style={{backgroundImage: `url(${squareBack})`}}
          id="techtalk-section">
 
             <div id='techtalk-section__left'
