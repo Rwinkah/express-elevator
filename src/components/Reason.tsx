@@ -61,10 +61,10 @@ export default function Reason() {
                             </p>
                     </div>
                     <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] xl:mt-0 mt-[54px]">
-                        <img className='md:w-3/4 flex w-full rounded-2xl' src={reasonImg1} />
-                        <img className='flex md:w-3/4 xl:w-full w-full rounded-2xl' src={reasonImg2} />
-                        <img className='flex md:w-3/4 xl:w-full w-full rounded-2xl' src={reasonImg3} />
-                        <img className='flex md:w-3/4  xl:w-full w-full rounded-2xl' src={reasonImg4}/>
+                        <img className='md:w-2/3 flex w-full rounded-2xl' src={reasonImg1} />
+                        <img className='flex md:w-2/3 xl:w-full w-full rounded-2xl' src={reasonImg2} />
+                        <img className='flex md:w-2/3 xl:w-full w-full rounded-2xl' src={reasonImg3} />
+                        <img className='flex md:w-2/3  xl:w-full w-full rounded-2xl' src={reasonImg4}/>
                     </span>
                 </div>
                 </div>
