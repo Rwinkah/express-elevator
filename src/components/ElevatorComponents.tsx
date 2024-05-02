@@ -67,7 +67,7 @@ import {
                      for their lightweight constructions and offer limitless design possibilities and finishes
                      </p>
              </div>
-        <CarouselContent className='w-[90%] mb-[5rem] gap-4'>
+        <CarouselContent className='w-[90%] mt-[5rem] lg:mt-0 mb-[5rem] gap-4'>
           {elevData.map((comp) => (
             <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
               <div className="w-[467px] h-[440px]" >

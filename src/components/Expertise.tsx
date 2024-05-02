@@ -118,7 +118,7 @@ export default function Expertise() {
                     </div>
 
                 </div>
-                <div className='grid grid-cols-2 lg:w-full sm:w-4/5 lg:h-full'>
+                <div className='grid grid-cols-2 lg:w-full sm:w-4/5 lg:h-full box-border'>
                     <div className='flex items-center border-[.3px] border-gray-200 shadow w-[95%] h-[90%] rounded-[12px]  hover:scale-105 duration-300'>
                         <img src={cutCab} alt='cut-angle cab'/>
                         <p className='leading-24px ml-3 w-[70%] lg:w-[60%] color-[#333] sm:text-[12px]  xl:text-lg '>Cutting angle shaped cab</p>
