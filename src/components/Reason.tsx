@@ -4,6 +4,13 @@ import reasonImg2 from '../assets/reasonImg2.png'
 import reasonImg3 from '../assets/reasonImg3.png'
 import reasonImg4 from '../assets/reasonImg4.png'
 import squareBack from '../assets/blueSquareBack.svg'
+import newElev1 from '../assets/newElev1.jpg'
+import newElev2 from '../assets/newElev2.jpg'
+import newElev3 from '../assets/newElev3.jpg'
+import newElev4 from '../assets/newElev4.jpg'
+import newElev5 from '../assets/newElev5.jpg'
+import newElev6 from '../assets/newElev6.jpg'
+
 
 export default function Reason() {
     return (
@@ -61,10 +68,10 @@ export default function Reason() {
                             </p>
                     </div>
                     <span className="  object-contain grid grid-cols-2 gap-2 md:gap-4 align-end justify-between md:max-w-[500px] w-[80%] xl:mt-0 mt-[54px]">
-                        <img className='md:w-2/3 flex w-full rounded-2xl' src={reasonImg1} />
-                        <img className='flex md:w-2/3 xl:w-full w-full rounded-2xl' src={reasonImg2} />
-                        <img className='flex md:w-2/3 xl:w-full w-full rounded-2xl' src={reasonImg3} />
-                        <img className='flex md:w-2/3  xl:w-full w-full rounded-2xl' src={reasonImg4}/>
+                        <img className='md:max-w-[300px] md:max-h-[280px] flex w-full rounded-2xl' src={newElev1} />
+                        <img className='flex md:max-w-[300px] md:max-h-[280px] xl:w-full w-full rounded-2xl' src={newElev2} />
+                        <img className='flex md:max-w-[300px] md:max-h-[280px] xl:w-full w-full rounded-2xl' src={newElev3} />
+                        <img className='flex md:max-w-[300px] md:max-h-[280px]  xl:w-full w-full rounded-2xl' src={newElev4}/>
                     </span>
                 </div>
                 </div>
