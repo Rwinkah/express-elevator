@@ -1,15 +1,15 @@
 import elevIcon from '../assets/elevatorIcon.svg'
-import reasonImg1 from '../assets/reasonImg1.png'
-import reasonImg2 from '../assets/reasonImg2.png'
-import reasonImg3 from '../assets/reasonImg3.png'
-import reasonImg4 from '../assets/reasonImg4.png'
+// import reasonImg1 from '../assets/reasonImg1.png'
+// import reasonImg2 from '../assets/reasonImg2.png'
+// import reasonImg3 from '../assets/reasonImg3.png'
+// import reasonImg4 from '../assets/reasonImg4.png'
 import squareBack from '../assets/blueSquareBack.svg'
 import newElev1 from '../assets/newElev1.jpg'
 import newElev2 from '../assets/newElev2.jpg'
 import newElev3 from '../assets/newElev3.jpg'
 import newElev4 from '../assets/newElev4.jpg'
-import newElev5 from '../assets/newElev5.jpg'
-import newElev6 from '../assets/newElev6.jpg'
+// import newElev5 from '../assets/newElev5.jpg'
+// import newElev6 from '../assets/newElev6.jpg'
 
 
 export default function Reason() {
