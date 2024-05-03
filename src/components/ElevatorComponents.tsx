@@ -43,7 +43,7 @@ import {
   
   export default function CarouselSize() {
     
-    const plugin = React.useRef(AutoPlay({delay: 1000}))
+    const plugin = React.useRef(AutoPlay({delay: 2000}))
     const isTabletAbove = UseMediaQuery("(min-width: 1440px)");
 
     return (
