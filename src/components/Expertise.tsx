@@ -98,15 +98,15 @@ export default function Expertise() {
                     <div className='flex flex-col pl-[5vw] justify-center'>
                        <h4 className='text-[#333333] text-2xl font-medium leading-[29.05px] mb-[1.5rem]'>Sightseeing elevators</h4>
                        <div className='flex flex-col lg:flex-row gap-4 mb-8 '>
-                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] p-4'>
-                            <p className=' flex leading-[23px] w-[90%] sm:text-base text-xs '>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] pl-4 text-[#404040]'>
+                            <p className=' flex leading-[23px] w-[90%]   text-base '>
                             {/* <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' /> */}
 
                                 It uses modern materials, fully computerized VVVF speed control,
                                 integrated data network, modular structure, and advanced machining.
                             </p>
                         </span>
-                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] p-4'>
+                        <span className='flex flex-col :items-center lg:items-start lg:w-[45%] border-l-2 border-l-[#1780F5] pl-4 text-[#404040]'>
                             <p className='flex leading-[23px] w-[90%] '>
                             {/* <span className=' lg:h-full  border border-[#1780F5] mr-[1.5rem]' /> */}
                                 It presents a compact and attractive space,

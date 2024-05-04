@@ -44,7 +44,7 @@ import {
   export default function CarouselSize() {
     
     const plugin = React.useRef(AutoPlay({delay: 2000}))
-    const isTabletAbove = UseMediaQuery("(min-width: 1440px)");
+    const isTabletAbove = UseMediaQuery("(min-width: 1024px)");
 
     return (
       <div className=' bg-blue-50 flex flex-col items-center mt-10'>
@@ -69,15 +69,15 @@ import {
              </div>
         <CarouselContent className='w-[90%] mt-[5rem] lg:mt-0 mb-[5rem] gap-4'>
           {elevData.map((comp) => (
-            <CarouselItem key={comp.key} className="md:basis-1/2 lg:basis-1/3" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
+            <CarouselItem key={comp.key} className="w-[467px] h-[440px]" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
               <div className="w-[467px] h-[440px]" >
-                <Card  className="flex items-center sm p-0 md:justify-center w-full">
-                  <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex  pt-3 pb-3 box-border ml-2 lg:ml-0 pl-3 pr-3  w-[80%]   bottom-10 absolute rounded-sm bg-[#999999] h-[72px]  xl:w-[30%] opacity-85 shadow-sm xs:w-[80%] md:w-[30%]">
-                    <h4 className="xl:text-xl  text-white w-[60%] h-[36px] p-2">{comp.text}</h4>
+                <Card  className="border-box flex items-center sm p-0 md:justify-center w-full">
+                  <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex   box-border   lg:ml-0 justify-between pr-4 pl-4     bottom-0 absolute rounded-sm bg-[#999999] h-[72px]  w-[467px] opacity-85 shadow-sm">
+                    <h4 className="xl:text-xl  text-white max-w-[100px] h-[36px] p-2 bottom-4">{comp.text}</h4>
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
                     { isTabletAbove &&  <Popover>
                 <PopoverTrigger asChild>
-                    <button className=' text-white border border-expBlueDark rounded-xl w-2/5'>See more</button>
+                    <button className=' text-white border h-[36px] w-[104px] mt-[12px] absolute bottom-2 right-4 border-expBlueDark rounded-3xl'>See more</button>
                 </PopoverTrigger>
                 <PopoverContent className=' flex md:w-fit w-1/4 h-1/4'>
                     <div className='flex md:flex-row  gap-4 justify-between'>

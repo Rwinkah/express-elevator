@@ -54,7 +54,7 @@ export default function Hero() {
         
                         <motion.div {...animationProps} className="m-0 p-0 flex flex-col gap-[6rem] items-center">
                             <img className="h-[250px]- w-[20vw]" src={Hero2} />
-                            <button className="rounded-3xl text-white bg-expBlue w-[272px] h-[47px] shadow-expButton font-medium text-[20px]"> Get a free quote</button>
+                            <button className="rounded-3xl text-white bg-expBlue w-[272px] h-[47px] shadow-expButton font-medium text-[20px]"> Design your elevator</button>
                         </motion.div>
                         <motion.img {...animationProps} className="w-[366px] h-[486px]" src={Hero3} />
         
@@ -68,7 +68,7 @@ export default function Hero() {
         
                         <div className="m-0 p-0 flex flex-col md:gap-[.5rem] gap-[1.5rem] items-center mt-[5%] w-full">
                             <img className="h-auto w-[45vw]" src={Hero2} />
-                            <button className="rounded-3xl text-white bg-expBlue w-[80%] h-[5vh] shadow-2xl font-medium md:text-[20px] text-sm"> Get a free quote</button>
+                            <button className="rounded-3xl text-white bg-expBlue w-[80%] h-[5vh] shadow-2xl font-medium md:text-[20px] text-sm"> Design your elevator</button>
                         </div>
                     </div>
                     )

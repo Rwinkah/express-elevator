@@ -19,6 +19,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: theme => ({
+        'radial-gradient': 'radial-gradient(95.91% 100% at 4.09% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(153, 153, 153, 0.2) 100%)',
+      }),
       fontFamily: {
         sans : ["Inter", "sans-serif"],
       },

@@ -15,7 +15,7 @@ import newElev4 from '../assets/newElev4.jpg'
 export default function Reason() {
     return (
         <section id=" box-border reason-section" className="box-border min-h-fit pl-4 pr-4 flex flex-col items-center h-fit 2xl:pl-[150px] lg:pl-[30px] 2xl:pr-[150px] lg:pr-[30px] bg-[#F7FAFF] 2xl:mb-[4rem]">
-            <div id="reason-headertext" className='w-full h-fit  flex-col items-center'>
+            <div id="reason-body" className='w-full h-fit  flex-col items-center'>
                 <h2 className="text-[#063C79] text-4xl font-medium text-center mb-4 mt-4 tracking-[2%]">
                     Why choose us
                 </h2>
@@ -27,13 +27,13 @@ export default function Reason() {
                     <p className="text-[#404040] text-sm text-center md:mb-[3.5rem] mb-2">
                         have a safe trip to your destination.
                     </p>
-                <div className="bg-repeat pt-10 items-center w-full xl:items-start  flex flex-col" style={{backgroundImage: `url(${squareBack})`}}>
+                <div className="bg-repeat pt-10  w-full xl:items-start  flex flex-col" style={{backgroundImage: `url(${squareBack})`}}>
                     <h5 className=" text-[#333333] md:text-2xl font-medium w-fit text-base ">Your safety is our number one priority</h5>
                     <p  className="text-[#404040] md:text-lg mb-[1.25rem] text-sm w-[92%] md:w-[50%] md:pt-0 pt-2">
                         We prioritize safety in the design, manufacturing, installation, 
                         and maintenance of our elevator systems. Here's how we achieve this:
                     </p>
-                <div className="flex xl:flex-row flex-col 2xl:gap-[2.5rem] gap-[2rem] min-h-[50%] items-center justify-between w-full">
+                <div className="flex xl:flex-row flex-col 2xl:gap-[2.5rem] gap-[2rem] min-h-[50%] xl:items-center justify-between w-full">
                     <div className="leading-[21px] bg-white xl:w-[30%] w-[95%] pr-[1.5rem] min-h-[193px] pt-[50px] pl-4 rounded-xl  shadow-lg border border-gray-200">
                             <h6 className="text-[#333333] font-semibold mb-[10px] flex gap-2"> <img src={elevIcon} /> Emergency device at power failure</h6>
                         <p className="text-sm  text-[#737373]">

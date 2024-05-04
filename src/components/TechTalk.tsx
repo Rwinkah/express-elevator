@@ -22,8 +22,8 @@ export default function TechTalk () {
     }), []);
 
     const shootingstarProp = useMemo(() => ({
-            initial: { opacity: 1, y: 980 },
-            animate: { opacity: 1, y: -200 },
+            initial: { opacity: 1, y: 240 },
+            animate: { opacity: 1, y: -220 },
             transition: {  duration: 1, repeat: Infinity },
         }), []);
 
