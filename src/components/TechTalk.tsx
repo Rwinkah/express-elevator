@@ -24,23 +24,23 @@ export default function TechTalk () {
     const shootingstarProp = useMemo(() => ({
             initial: { opacity: 1, y: 240 },
             animate: { opacity: 1, y: -220 },
-            transition: {  duration: 1, repeat: Infinity },
+            transition: {  duration: 2, repeat: Infinity },
         }), []);
 
     const shootingstarProp2 = useMemo(() => ({
         initial: { opacity: 1, y: 250 },
         animate: { opacity: 1, y: -200 },
-        transition: {  duration: 1, repeat: Infinity },
+        transition: {  duration:2, repeat: Infinity },
     }), []);
     const shootingstarProp3 = useMemo(() => ({
         initial: { opacity: 1, x: -250 },
         animate: { opacity: 1, x: 800 },
-        transition: {  duration: .75, repeat: Infinity },
+        transition: {  duration: 2, repeat: Infinity },
     }), []);
     const shootingstarProp4 = useMemo(() => ({
         initial: { opacity: 1, x: 250 },
         animate: { opacity: 1, x: -800 },
-        transition: {  duration: 1, repeat: Infinity },
+        transition: {  duration: 2, repeat: Infinity },
     }), []);
     const animationProps = useMemo(() => ({
         initial: { opacity: 0, y: 80 },
@@ -94,7 +94,7 @@ export default function TechTalk () {
                 <motion.img  {...shootingstarProp2}  src={circleGroup}  className='h-1/3 W-[100px]'/>
             </motion.div> 
         </section> :
-        <section className='w-[100vw] h-fit bg-cover flex flex-col items-center pb-20 mb-10' 
+        <section className='w-[100vw] h-fit bg-cover flex flex-col items-center  mb-10' 
         style={{backgroundImage: `url(${techBack})`}}
         >
             <motion.img {...blinkProp} src={circleLine} alt='circle_design' />
