@@ -46,7 +46,7 @@ const ReasonData2 = [
 ]
 export default function ReasonNew () {
     return (
-        <div className='self-center max-w-[1252px] w-full flex flex-col items-center justify-center'>
+        <div className='self-center max-w-[1252px] w-full flex flex-col items-center justify-center mt-12'>
             <h2 className="text-[#063C79] text-4xl font-medium text-center mb-4 mt-4 tracking-[2%]">
                 Why choose us
             </h2>
