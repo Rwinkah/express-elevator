@@ -8,6 +8,9 @@ import futureCab from '../assets/futureCab.png'
 import squareCab from '../assets/squareShapedCab.svg'
 import meshBack from '../assets/mesh_baground.svg'
 import dotsBack from '../assets/bacground_dots.svg'
+import expImg5 from '../assets/expressImgCargi.svg'
+import expImg6 from "../assets/expressImgWalkway.svg"
+import expImg7 from '../assets/expressImgEscalator.svg'
 
 // import grid from '../assets/grid.png'
 // import mesh from '../assets/mesh.png'
@@ -89,7 +92,67 @@ export default function Expertise() {
                      comfortable rides, creating a serene environment.
                     </p>
                 </div>
+                
                 <img src={meshBack} className=' absolute hidden  xl:flex  right-[200px] w-[500px] h-[766px]' />
+
+            </div>
+            <div className='flex  lg:flex-row-reverse gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
+                {/* <img src={grid} className='z-0 absolute h-[10rem] w-[10rem]' /> */}
+                <div className=' bg-cover sm:w-[420px] h-[420px] lg:w-[5OOpx] lg:h-[500px] flex items-center justify-center'>
+                {/* <img src={dotsBack} className=' absolute hidden  xl:flex w-[564] object-cover  h-[564px]' /> */}
+        
+                <img className=''src={expImg5} />
+                </div>
+
+                <div className='flex justify-center flex-col xl:w-[50%]'>
+                    <h3 className='text-2xl font-medium leading-[29px] mb-5'>Cargo elevators</h3>
+                    <p className='text-xs lg:text-base leading-[24px] text-[#404040] 2xl:w-2/3'>
+                    These elevators are designed for heavy loads, 
+                    cargo elevators efficiently transport goods within buildings,
+                     essential for logistics in warehouses and commercial spaces.
+
+                    </p>
+                </div>
+                
+
+            </div>
+            <div className='flex  lg:flex-row gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
+                {/* <img src={grid} className='z-0 absolute h-[10rem] w-[10rem]' /> */}
+                <div className=' bg-cover sm:w-[420px] h-[420px] lg:w-[5OOpx] lg:h-[500px] flex items-center justify-center' >
+                {/* <img src={dotsBack} className=' absolute hidden  xl:flex w-[564] object-cover  h-[564px]' /> */}
+        
+                <img className=''src={expImg6} />
+                </div>
+
+                <div className='flex justify-center flex-col xl:w-[50%]'>
+                    <h3 className='text-2xl font-medium leading-[29px] mb-5'>Automatic walkways</h3>
+                    <p className='text-xs lg:text-base leading-[24px] text-[#404040] 2xl:w-2/3'>
+                    Our automatic walkways, also known as moving walkways or travelators,
+                     are engineered with precision and reliability in mind.
+                      Whether you're navigating through bustling airports, shopping centers, or transit hubs,
+                       our walkways offer a seamless and efficient way to cover long distances
+                        without exerting unnecessary effort.
+                    </p>
+                </div>
+                
+
+            </div>
+            <div className='flex  lg:flex-row-reverse gap-[4rem] flex-col-reverse  justify-evenly w-[85%] mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
+                {/* <img src={grid} className='z-0 absolute h-[10rem] w-[10rem]' /> */}
+                <div className=' bg-cover sm:w-[420px] h-[420px] lg:w-[5OOpx] lg:h-[500px] flex items-center justify-center' >
+                {/* <img src={dotsBack} className=' absolute hidden  xl:flex w-[564] object-cover  h-[564px]' /> */}
+        
+                <img className=''src={expImg7} />
+                </div>
+
+                <div className='flex justify-center flex-col xl:w-[50%]'>
+                    <h3 className='text-2xl font-medium leading-[29px] mb-5'>Escalators </h3>
+                    <p className='text-xs lg:text-base leading-[24px] text-[#404040] 2xl:w-2/3'>
+                    We specialize in creating top-notch escalators that prioritize safety, efficiency, and style. Our escalators are built to withstand heavy foot traffic in busy places like shopping centers and airports. With sleek designs and advanced safety features,
+                     our escalators offer a smooth and comfortable ride for passengers of all ages.
+                    </p>
+                </div>
+                
 
             </div>
 

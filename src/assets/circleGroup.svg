@@ -1,8 +1,8 @@
 <svg width="117" height="298" viewBox="0 0 117 298" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_395_443)">
-<circle cx="58.5" cy="58" r="14" fill="#D39E2C"/>
+<circle cx="58.5" cy="58" r="14" fill="#1F6AFC80"/>
 </g>
-<circle cx="58.5" cy="58" r="10" fill="#D39E2C"/>
+<circle cx="58.5" cy="58" r="10" fill="#1F6AFC80"/>
 <path d="M58.5 64V297.5" stroke="url(#paint0_linear_395_443)" stroke-width="4"/>
 <defs>
 <filter id="filter0_f_395_443" x="0.5" y="0" width="116" height="116" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -11,7 +11,7 @@
 <feGaussianBlur stdDeviation="22" result="effect1_foregroundBlur_395_443"/>
 </filter>
 <linearGradient id="paint0_linear_395_443" x1="59" y1="64" x2="59" y2="297.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D39E2C"/>
+<stop stop-color="#1F6AFC80"/>
 <stop offset="0.631667" stop-color="#513D13" stop-opacity="0.3"/>
 <stop offset="1" stop-color="#050505" stop-opacity="0"/>
 </linearGradient>

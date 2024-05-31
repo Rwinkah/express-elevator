@@ -4,6 +4,7 @@ import Hero3 from '../assets/Hero3.svg'
 import UseMediaQuery from '../../lib/use-media-query'
 import { motion } from 'framer-motion';
 import { useMemo } from 'react';
+import HeroBack from '../assets/expressHeroMain.svg'
 
 function passengerRedir () {
     document.getElementById('navbarExpertise')?.click()
@@ -39,7 +40,10 @@ export default function Hero() {
     // }), []);
 
     return (
-        <motion.section itemID='tech-section' {...animationProps} id="hero-section" className="pr bg-[#fafafa] h-full flex flex-col items-center m-0 p-0 mb-[5rem]">
+        <div className='mt-[4rem]'>
+        <motion.section itemID='tech-section' {...animationProps} id="hero-section" className=" bg-[#fafafa]  h-full flex flex-col items-center m-0 p-0 mb-[5rem]w-full  bg-cover "
+        style={{backgroundImage: `url(${HeroBack  })`}}
+        >
             <div id="hero-headertext" className=" mt-[5rem] flex items-center flex-col">
                 <h1 className="text-[#333] text-wrap text-center font-semibold md:font-medium w-[80%] text-[24px] md:text-[52px] mb-4">Rising to new heights with every express elevator ride</h1>
                 <p className="text-[18px] text-[#494A50] md:w-[40%] w-[90%] text-wrap text-center mt-[1rem] md:mb-[4rem] mb-[2rem] leading-[28px]">
@@ -73,9 +77,8 @@ export default function Hero() {
                     </div>
                     )
             }
-
-
-
         </motion.section>
+        </div>
+
     )
 }

@@ -1,8 +1,8 @@
 <svg width="298" height="116" viewBox="0 0 298 116" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_395_458)">
-<circle cx="239.5" cy="58" r="14" transform="rotate(90 239.5 58)" fill="#D39E2C"/>
+<circle cx="239.5" cy="58" r="14" transform="rotate(90 239.5 58)" fill="#1F6AFC80"/>
 </g>
-<circle cx="239.5" cy="58" r="10" transform="rotate(90 239.5 58)" fill="#D39E2C"/>
+<circle cx="239.5" cy="58" r="10" transform="rotate(90 239.5 58)" fill="#1F6AFC80"/>
 <path d="M233.5 58L0 58" stroke="url(#paint0_linear_395_458)" stroke-width="4"/>
 <defs>
 <filter id="filter0_f_395_458" x="181.5" y="0" width="116" height="116" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -11,7 +11,7 @@
 <feGaussianBlur stdDeviation="22" result="effect1_foregroundBlur_395_458"/>
 </filter>
 <linearGradient id="paint0_linear_395_458" x1="233.5" y1="58.5" x2="0" y2="58.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D39E2C"/>
+<stop stop-color="#1F6AFC80"/>
 <stop offset="0.606667" stop-color="#564114" stop-opacity="0.3"/>
 <stop offset="1" stop-color="#050505" stop-opacity="0"/>
 </linearGradient>

@@ -21,6 +21,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'radial-gradient': 'radial-gradient(95.91% 100% at 4.09% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(153, 153, 153, 0.2) 100%)',
+        'custom-gradient': 'linear-gradient(45deg, blue, white)', 
       }),
       fontFamily: {
         sans : ["Inter", "sans-serif"],
@@ -82,6 +83,14 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        fade: {
+          '0%': {
+            opacity: 1,
+          },
+          '100%': {
+            opacity: 0,
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
