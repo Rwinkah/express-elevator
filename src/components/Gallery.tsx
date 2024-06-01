@@ -6,10 +6,17 @@ import carDe5 from '../assets/cardecor5.svg'
 import carDe6 from '../assets/cardecor6.svg'
 import carDe7 from '../assets/cardecor7.svg'
 import carDe8 from '../assets/cardecor8.svg'
+import land1 from '../assets/landing1.svg'
+import land2 from '../assets/landing2.svg'
+import land3 from '../assets/landing3.svg'
+import land4 from '../assets/landing4.svg'
 
 
 const carDec = [
     carDe1, carDe2, carDe3, carDe4, carDe5, carDe6, carDe7, carDe8
+]
+const landDor = [
+    land1, land2, land3, land4
 ]
 export default function Gallery() {
     return (
@@ -29,7 +36,7 @@ export default function Gallery() {
                     Landing doors
                 </div>
                 <div className='flex justify-between flex-wrap ml-10 lg:ml-0'>
-                    {carDec.map((carimg)=> 
+                    {landDor.map((carimg)=> 
                         <img className='mt-10' src={carimg}/>
                     )}
                 </div>
@@ -39,7 +46,7 @@ export default function Gallery() {
                    Handrails
                 </div>
                 <div className='flex justify-between flex-wrap ml-10 lg:ml-0'>
-                    {carDec.map((carimg)=> 
+                    {landDor.map((carimg)=> 
                         <img className='mt-10' src={carimg}/>
                     )}
                 </div>

@@ -5,6 +5,10 @@ import wavyBack from '../assets/expressWavyLine.svg'
 import smooth from  '../assets/expressSmooth.svg'
 import safe from '../assets/expressSafe.svg'
 import swift from '../assets/expressSwift.svg'
+import land1 from '../assets/landing1.svg'
+import land2 from '../assets/landing2.svg'
+import land3 from '../assets/landing3.svg'
+import land4 from '../assets/landing4.svg'
 
 
 import {  motion } from "framer-motion";
