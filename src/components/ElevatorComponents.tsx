@@ -1,4 +1,4 @@
-import * as React from "react"
+// import * as React from "react"
 import carDec1 from '../assets/carDecoration1.svg'
 import carDec2 from '../assets/carDecoration2.svg'
 import carDec3 from '../assets/carDecoration3.svg'
@@ -14,7 +14,7 @@ import UseMediaQuery from '../../lib/use-media-query'
 import squareBack from '../assets/blueSquareBack.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
 
-import AutoPlay from 'embla-carousel-autoplay'
+// import AutoPlay from 'embla-carousel-autoplay'
 
 
 
@@ -44,13 +44,13 @@ import {
   
   export default function CarouselSize() {
     
-    const plugin = React.useRef(AutoPlay({delay: 2000}))
+    // const plugin = React.useRef(AutoPlay({delay: 2000}))
+
     const isTabletAbove = UseMediaQuery("(min-width: 1024px)");
 
     return (
       <div className=' bg-blue-50 flex flex-col items-center mt-10'>
       <Carousel
-      plugins={[plugin.current]}
       id='component-section'
         opts={{
           align: "start",
