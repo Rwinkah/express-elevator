@@ -3,7 +3,6 @@ import engineObj from '../assets/engineObject.svg'
 import {motion} from 'framer-motion'
 import circle from '../assets/circle.svg'
 import elevElipse from '../assets/expressBlue.svg'
-import circleLine from '../assets/circleLine.svg'
 import { useMemo } from 'react'
 import UseMediaQuery from '../../lib/use-media-query'
 
@@ -63,29 +62,29 @@ export default function TechTalk () {
 
                 <motion.img  {...blinkProp}  src={circle}  className='h-1/3 W-[100px]'/>
             </motion.div> 
-        </section> :
-        <section className='w-[100vw] h-fit bg-cover flex flex-col items-center  mb-10' 
-        style={{backgroundImage: `url(${techBack})`}}
-        >
-            <motion.img {...blinkProp} src={circleLine} alt='circle_design' />
-            <img src={engineObj} alt='engine_design' />
-            <div className='flex w-[96vw]] pl-[2vw] pr-[2vw] mt-[-150px] '>
-                <img src={elevElipse} className='h-[150px] w-[90%]'/>
-                <motion.img {...blinkProp} src={circle} className='h-[200px] mt-[0px]' alt='star_design' />
-            </div>
-            <motion.div className='w-[] flex flex-col gap-10 self-start ml-5 '>
-                    <motion.img  {...blinkProp}  src={circle} style={{  height: '5rem' }}/>
-                    <motion.h3  className='md:text-[16px] max-w-[182px] border-l-2 pl-4 border-expBlue text-white h-fit text-[12px]'>Smart IC card controlling system</motion.h3>
-                    <p   className='md:text-[16px] opacity-70 text-white text-[12px] max-w-[182px] '>The door operator control system of Express Elevator applies dual control systems.</p>
-                </motion.div> 
-            <p className='md:text-[16px] max-w-[182px] text-[#fff] text-[12px] self-end mr-5 mt-5 opacity-70'>
-                One group is controlled by the main controller,
-                 Which greatly reduces non-opening accidents
-                  due to trouble of door machine control
-            </p>
-            <motion.img  {...blinkProp}  src={circle} className='mt-[100px]' />
+        </section> :<></>
+        // <section className='w-[100vw] h-fit bg-cover flex flex-col items-center  mb-10' 
+        // style={{backgroundImage: `url(${techBack})`}}
+        // >
+        //     <motion.img {...blinkProp} src={circleLine} alt='circle_design' />
+        //     <img src={engineObj} alt='engine_design' />
+        //     <div className='flex w-[96vw]] pl-[2vw] pr-[2vw] mt-[-150px] '>
+        //         <img src={elevElipse} className='h-[150px] w-[90%]'/>
+        //         <motion.img {...blinkProp} src={circle} className='h-[200px] mt-[0px]' alt='star_design' />
+        //     </div>
+        //     <motion.div className='w-[] flex flex-col gap-10 self-start ml-5 '>
+        //             <motion.img  {...blinkProp}  src={circle} style={{  height: '5rem' }}/>
+        //             <motion.h3  className='md:text-[16px] max-w-[182px] border-l-2 pl-4 border-expBlue text-white h-fit text-[12px]'>Smart IC card controlling system</motion.h3>
+        //             <p   className='md:text-[16px] opacity-70 text-white text-[12px] max-w-[182px] '>The door operator control system of Express Elevator applies dual control systems.</p>
+        //         </motion.div> 
+        //     <p className='md:text-[16px] max-w-[182px] text-[#fff] text-[12px] self-end mr-5 mt-5 opacity-70'>
+        //         One group is controlled by the main controller,
+        //          Which greatly reduces non-opening accidents
+        //           due to trouble of door machine control
+        //     </p>
+        //     <motion.img  {...blinkProp}  src={circle} className='mt-[100px]' />
 
-        </section>
+        // </section>
         }
         </>
 

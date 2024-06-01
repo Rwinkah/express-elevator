@@ -25,6 +25,7 @@ import {
 } from "../../components/ui/popover"
 
 import { Card, CardContent } from "../../components/ui/card"
+import { Link } from "react-router-dom"
 import {
   Carousel,
   CarouselContent,
@@ -70,6 +71,7 @@ import {
         <CarouselContent className='w-[90%] mt-[5rem] lg:mt-0 mb-[5rem] gap-4'>
           {elevData.map((comp) => (
             <CarouselItem key={comp.key} className="w-[467px] h-[440px]" style={{ backgroundImage: `url(${comp.backImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }} >
+              <Link to='/gallery'>
               <div className="w-[467px] h-[440px]" >
                 <Card  className="border-box flex items-center sm p-0 md:justify-center w-full">
                   <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex   box-border   lg:ml-0 justify-between pr-4 pl-4     bottom-0 absolute rounded-sm bg-[#999999] h-[72px]  w-[467px] opacity-85 shadow-sm">
@@ -91,6 +93,7 @@ import {
                   </CardContent>
                 </Card>
               </div>
+              </Link>
             </CarouselItem>
           ))}
         </CarouselContent>

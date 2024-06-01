@@ -30,10 +30,10 @@ export default function HeroFooter () {
                 <div className='mt-4 w-1/4' style={{backgroundImage: `url(${wavyBack})`, transform: `scaleX(-1)`}}>
 
                 </div>
-                <div id='hero-footer-main' className='flex flex-col text-4xl items-center text-center mt-12 justify-between overflow-hidden'>
+                <div id='hero-footer-main' className='flex flex-col lg:text-4xl text-[14px] items-center text-center mt-12 justify-between overflow-hidden'>
                     <div 
                     className='flex gap-4'>
-                    <h2 className=' max-w-[645px] text-white'>Unlocking 10 years of </h2>
+                    <h2 className=' max-w-[645px] text-white text-[12px] md:text-4xl'>Unlocking 10 years of </h2>
                         <div className='h-[50px] overflow-hidden'>
                             <motion.div {...item} className=''>
                                 <motion.img src={smooth} />
