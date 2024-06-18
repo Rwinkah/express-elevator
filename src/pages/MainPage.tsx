@@ -5,6 +5,7 @@ import Expertise from "@/components/Expertise"
 import CarouselSize from "@/components/ElevatorComponents"
 import TechTalk from "@/components/TechTalk"
 import Footer from "@/components/Footer"
+import Map from "@/components/Map"
 
 export default function MainPage() {
     return(
@@ -16,6 +17,7 @@ export default function MainPage() {
         <TechTalk />
         <Expertise />
         <CarouselSize />
+        <Map/>
         <Footer />
       </div>
     )

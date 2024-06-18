@@ -5,6 +5,7 @@ import UseMediaQuery from '../../lib/use-media-query'
 import { motion } from 'framer-motion';
 import { useMemo } from 'react';
 import HeroBack from '../assets/expressHeroMain.svg'
+import logo from '../assets/expressLogo.svg'
 
 function passengerRedir () {
     document.getElementById('navbarExpertise')?.click()
@@ -18,26 +19,6 @@ export default function Hero() {
         animate: { opacity: 1, y: 0 },
         transition: { duration: 3 },
     }), []);
-    // const delayedAnimationProps = useMemo(() => ({
-    //     initial: { opacity: 0, y: 80 },
-    //     animate: { opacity: 1, y: 0 },
-    //     transition: { delay: 1, duration: 2 },
-    // }), []);
-    // const delayPropsImg1 = useMemo(() => ({
-    //     initial: { opacity: 0, y: 80 },
-    //     animate: { opacity: 1, y: 0 },
-    //     transition: { delay: .5, duration: 1 },
-    // }), []);
-    // const delayPropsImg2 = useMemo(() => ({
-    //     initial: { opacity: 0, y: 80 },
-    //     animate: { opacity: 1, y: 0 },
-    //     transition: { delay: 1, duration: 1 },
-    // }), []);
-    // const delayPropsImg3 = useMemo(() => ({
-    //     initial: { opacity: 0, y: 80 },
-    //     animate: { opacity: 1, y: 0 },
-    //     transition: { delay: 1.5, duration: 1 },
-    // }), []);
 
     return (
         <div className='mt-[4rem]'>
@@ -45,11 +26,16 @@ export default function Hero() {
         style={{backgroundImage: `url(${HeroBack  })`}}
         >
             <div id="hero-headertext" className=" mt-[5rem] flex items-center flex-col">
-                <h1 className="text-[#333] text-wrap text-center font-semibold md:font-medium w-[80%] text-[24px] md:text-[52px] mb-4">Rising to new heights with every express elevator ride</h1>
-                <p className="text-[18px] text-[#494A50] md:w-[40%] w-[90%] text-wrap text-center mt-[1rem] md:mb-[4rem] mb-[2rem] leading-[28px]">
-                    Ride the Elevator to Innovation: Crafting Vertical Journeys, 
-                    One Floor at a Time. Step into Quality, Rise with Confidence
+                <div className='w-full items-center justify-center flex flex-col'>
+                <h1 className="text-[#0F55A3] text-wrap text-center font-semibold md:font-medium w-[70%] text-[24px] md:text-[52px] mb-4">Rising to New Heights  </h1>
+                <h1 className="text-[#0F55A3] text-wrap text-center font-semibold md:font-medium w-[100%] text-[24px] md:text-[52px] mb-4">with Every Express Elevator Ride</h1>
+
+                </div>
+                <p className="text-[18px] text-[#494A50] md:w-[75%] w-[90%] text-wrap text-center mt-[1rem]  mb-[2rem] leading-[28px]">
+                    Step into our world of vertical journeys and unforgettable moments,
+                    where experiences are elevated one floor at a time
                     </p>
+                    <img className='mb-8' src={logo}/>
             </div>
 
             {isTabletAbove ? 
