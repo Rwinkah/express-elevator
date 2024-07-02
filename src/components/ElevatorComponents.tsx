@@ -13,6 +13,9 @@ import landDoor2 from '../assets/landingDoors2.svg'
 import UseMediaQuery from '../../lib/use-media-query'
 import squareBack from '../assets/blueSquareBack.svg'
 import landDoor3 from '../assets/landingDoors3.svg'
+import panel1 from '../assets/panel1.svg'
+import floor1 from '../assets/floors1.svg'
+
 
 // import AutoPlay from 'embla-carousel-autoplay'
 
@@ -42,7 +45,7 @@ import {
 //   }
 
   
-  export default function CarouselSize() {
+  export default function ImageCarousel() {
     
     // const plugin = React.useRef(AutoPlay({delay: 2000}))
 
@@ -77,18 +80,9 @@ import {
                   <CardContent className="bg-gradient-radial from-[#ffffff] to-[#999999] flex   box-border   lg:ml-0 justify-between pr-4 pl-4     bottom-0 absolute rounded-sm bg-[#999999] h-[72px]  w-[467px] opacity-85 shadow-sm">
                     <h4 className="xl:text-xl  text-white max-w-[100px] h-[36px] p-2 bottom-4">{comp.text}</h4>
                     {/* <button className='border-expBlueDark border rounded-xl text-white p-0 h-[36px] w-[25vw] lg:w-[99px] text-sm'> See more</button> */}
-                    { isTabletAbove &&  <Popover>
-                <PopoverTrigger asChild>
-                    <button className=' text-white border h-[36px] w-[104px] mt-[12px] absolute bottom-2 right-4 border-expBlueDark rounded-3xl'>See more</button>
-                </PopoverTrigger>
-                <PopoverContent className=' flex md:w-fit w-1/4 h-1/4'>
-                    <div className='flex md:flex-row  gap-4 justify-between'>
-                        {comp.images.map((img, index) => (
-                            <img className='' src={img} alt="elevator component" key={index} />
-                            ))}
-                    </div>
-                </PopoverContent>
-            </Popover>}
+                    { isTabletAbove &&   <button className=' text-white border h-[36px] w-[104px] mt-[12px] absolute bottom-2 right-4 border-expBlueDark rounded-3xl'>See more</button>}
+
+    
                    
                   </CardContent>
                 </Card>
@@ -106,7 +100,7 @@ import {
      
     )
   }
-// export default function CarouselSize() {
+// export default function ImageCarousel() {
 //   return (
 //     <section id="carousel-COMPONENT">
 
@@ -163,12 +157,6 @@ const  elevData = [
         images : [carDec1, carDec2, carDec3],
     },
 
-    {
-        key: 'elevatorWell',
-        text: 'Elevator well',
-        backImg: elevWell1,
-        images : [elevWell1, elevWell2, elevWell3],
-    },
 
     {
         key: 'handRailing',
@@ -182,6 +170,16 @@ const  elevData = [
         text: 'Landing doors',
         backImg: landDoor1,
         images : [landDoor1, landDoor2, landDoor3],
-    }
+    },
 
+    {
+      key: 'opePanel',
+      text: 'Operational Panel',
+      backImg: panel1,
+  },
+  {
+    key: 'floor',
+    text: 'Floors',
+    backImg: floor1,
+},
 ]
