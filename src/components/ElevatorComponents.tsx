@@ -2,9 +2,6 @@
 import carDec1 from '../assets/carDecoration1.svg'
 import carDec2 from '../assets/carDecoration2.svg'
 import carDec3 from '../assets/carDecoration3.svg'
-import elevWell1 from '../assets/elevatorWell1.svg'
-import elevWell2 from '../assets/elevatorWell2.svg'
-import elevWell3 from '../assets/elevatorWell3.svg'
 import handRail1 from '../assets/handRailing1.svg'
 import handRail2 from '../assets/handRailing2.svg'
 import handRail3 from '../assets/handRailing3.svg'
@@ -19,13 +16,6 @@ import floor1 from '../assets/floors1.svg'
 
 // import AutoPlay from 'embla-carousel-autoplay'
 
-
-
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "../../components/ui/popover"
 
 import { Card, CardContent } from "../../components/ui/card"
 import { Link } from "react-router-dom"
