@@ -65,10 +65,10 @@ export default function Expertise() {
             <div className=' flex lg:flex-row flex-col justify-around w-[80%] md:w-full pl-2 pr-2 mb-[4.5rem] 2xl:pl-[80px] 2xl:pr-[80px]'>
                 <div className='lg:w-[45%] flex flex-col justify-center'> 
                     <h3 className='text-2xl mb-[1.5rem] font-medium'>Villa elevators (Machine room-less)</h3>
+                    <h4 className='font-medium mb-1'>Positive Drive Machine</h4>
                     <p className='text-xs leading-[20px] lg:leading-[29.05px] w-full mb-6 lg:mb-0 text-[#404040] lg:text-base'>
-                        The Express Elevator stops at 125% overload using double brakes and features advanced forcible-drive technology,
-                         eliminating the need for counterweights or gearboxes.
-                         This design saves both cost and space compared to traditional hydraulic elevators.
+                        Adopt reduction machine and double sheaves structure; stoprunning when with 125% overload and with double 
+                        brake design. All of this makes compact sturcture and flexible arrangements.
                         </p>
                 </div>
                 <div className='flex flex-col md:flex-row gap-4 justify-between'>
